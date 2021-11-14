@@ -1,0 +1,1129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="IMG_20191216_104941" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20191216_104941.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20191216_105048" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20191216_105048.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20191216_181016" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20191216_181016.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20191216_181106" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20191216_181106.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20191216_181112" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20191216_181112.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20191216_182421" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20191216_182421.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20191221_195518" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20191221_195518.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20191224_194022" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20191224_194022.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20191225_083305" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20191225_083305.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20191225_084357" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20191225_084357.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20191225_085544" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20191225_085544.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20191225_085620" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20191225_085620.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200102_134051" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200102_134051.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200102_134107" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200102_134107.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200102_134146" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200102_134146.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200102_134212" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200102_134212.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200102_134250" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200102_134250.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200102_134416" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200102_134416.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200102_134600" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200102_134600.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200102_140141" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200102_140141.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200102_140155" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200102_140155.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200103_165202" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200103_165202.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200116_102710" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200116_102710.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200116_102817" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200116_102817.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200126_163507" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200126_163507.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200126_163509" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200126_163509.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200126_163546" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200126_163546.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200126_163738" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200126_163738.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200126_164027" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200126_164027.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200126_164040" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200126_164040.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200126_180444" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200126_180444.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200126_180453" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200126_180453.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200126_180544" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200126_180544.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200126_180906" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200126_180906.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200126_195037" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200126_195037.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200126_195041" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200126_195041.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200126_195048" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200126_195048.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200126_235818" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200126_235818.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200126_235827" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200126_235827.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200127_114954" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200127_114954.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200308_085040" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200308_085040.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200308_085505" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200308_085505.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200308_085958" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200308_085958.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200308_090147" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200308_090147.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200418_124846" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200418_124846.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200419_084707" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200419_084707.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200419_084817" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200419_084817.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200419_084858" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200419_084858.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200419_084936" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200419_084936.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200419_084945" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200419_084945.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200419_092026" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200419_092026.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200420_093151" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200420_093151.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200510_094227" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200510_094227.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200607_104332" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200607_104332.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200607_104750" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200607_104750.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200621_095350" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200621_095350.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200621_095644" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200621_095644.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200621_095741" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200621_095741.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200621_113614_BURST001_COVER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200621_113614_BURST001_COVER.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200621_113614_BURST002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200621_113614_BURST002.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200621_113614_BURST003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200621_113614_BURST003.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200621_113614_BURST004" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200621_113614_BURST004.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200621_113614_BURST005" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200621_113614_BURST005.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200621_113614_BURST006" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200621_113614_BURST006.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200621_113614_BURST007" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200621_113614_BURST007.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200621_113614_BURST008" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200621_113614_BURST008.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200621_113614_BURST009" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200621_113614_BURST009.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200621_113644" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200621_113644.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200621_120228" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200621_120228.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200621_120239" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200621_120239.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200621_120242" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200621_120242.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200622_115321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200622_115321.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200623_165316" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200623_165316.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200708_173946" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200708_173946.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200708_174129" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200708_174129.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200711_180201" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200711_180201.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200802_094933" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200802_094933.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200802_094935" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200802_094935.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200802_094957" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200802_094957.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200802_095705" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200802_095705.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200802_095743" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200802_095743.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200802_100009" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200802_100009.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200802_100031" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200802_100031.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200805_090850" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200805_090850.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200805_090905" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200805_090905.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200805_091034" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200805_091034.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200805_091121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200805_091121.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200806_092531" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200806_092531.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200806_094326" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200806_094326.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200806_094355" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200806_094355.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200806_111537" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200806_111537.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200806_174454" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200806_174454.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200806_174501" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200806_174501.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200809_183949" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200809_183949.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200809_184001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200809_184001.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200809_185803" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200809_185803.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200809_185813" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200809_185813.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200809_190645" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200809_190645.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200809_192647" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200809_192647.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200809_192713" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200809_192713.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200809_192723" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200809_192723.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200809_193209" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200809_193209.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200809_203948" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200809_203948.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200809_203951" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200809_203951.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200810_142229" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200810_142229.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200810_142319" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200810_142319.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200810_142322" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200810_142322.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200810_142355" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200810_142355.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200811_123626" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200811_123626.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200811_123640" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200811_123640.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200811_123700" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200811_123700.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200812_074431" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200812_074431.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200812_080144" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200812_080144.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200812_080159" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200812_080159.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200815_143330" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200815_143330.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200815_143537" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200815_143537.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200815_143635" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200815_143635.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200815_145123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200815_145123.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200815_145137" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200815_145137.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200815_163311" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200815_163311.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200815_163407" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200815_163407.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200815_173812" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200815_173812.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200815_174048" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200815_174048.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200815_174117" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200815_174117.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200815_174118" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200815_174118.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200815_174428" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200815_174428.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200815_174431" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200815_174431.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200816_111638" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200816_111638.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200816_111744" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200816_111744.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200816_111833" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200816_111833.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200825_093717" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200825_093717.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200825_093752" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200825_093752.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200825_094325" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200825_094325.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200825_094327" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200825_094327.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200825_105655" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200825_105655.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200830_130228" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200830_130228.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200830_130303" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200830_130303.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200906_134332" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200906_134332.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200906_144930" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200906_144930.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200906_145003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200906_145003.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200906_145016" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200906_145016.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200906_151342" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200906_151342.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200912_132605" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200912_132605.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200912_132607" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200912_132607.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200912_132612" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200912_132612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200912_132614" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200912_132614.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200912_132620" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200912_132620.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200912_132622" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200912_132622.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200912_132643" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200912_132643.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200912_132646" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200912_132646.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200912_132651" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200912_132651.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200912_132652" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200912_132652.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200912_132708" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200912_132708.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200912_132714" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200912_132714.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200912_132824" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200912_132824.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200912_133406" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200912_133406.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200912_135204" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200912_135204.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200912_135300" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200912_135300.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200912_135311" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200912_135311.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200912_135957" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200912_135957.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200913_101357" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200913_101357.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200913_101402" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200913_101402.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200913_101408" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200913_101408.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200913_101427" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200913_101427.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200913_101429" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200913_101429.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200913_101435" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200913_101435.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200913_101445" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200913_101445.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200913_101446" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200913_101446.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200913_101515" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200913_101515.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200913_101531" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200913_101531.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200913_101540" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200913_101540.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200913_101605" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200913_101605.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200913_101629" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200913_101629.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200913_101635" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200913_101635.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200913_101655" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200913_101655.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200913_101658" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200913_101658.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200927_122300" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200927_122300.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200927_122313" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200927_122313.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200927_122425" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200927_122425.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200927_122649" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200927_122649.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200927_122657" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200927_122657.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200927_123032" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200927_123032.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200927_123048" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200927_123048.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200927_123107" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200927_123107.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200927_123121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200927_123121.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200927_123143" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200927_123143.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200927_124631" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200927_124631.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200927_124648" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200927_124648.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200927_124743" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200927_124743.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200927_125124" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200927_125124.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200927_130029" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200927_130029.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200927_130118" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200927_130118.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200927_131925" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200927_131925.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200927_131938" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200927_131938.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200927_134044" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200927_134044.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200927_150022" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200927_150022.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200927_150102" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200927_150102.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200927_150156" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200927_150156.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20200927_151122" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20200927_151122.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201003_173023" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201003_173023.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201004_103030" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201004_103030.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201004_103033" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201004_103033.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201004_103500" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201004_103500.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201004_103659" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201004_103659.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201004_144635" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201004_144635.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201004_144637" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201004_144637.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201004_144651" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201004_144651.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201004_144751" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201004_144751.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201004_144803" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201004_144803.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201004_150104" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201004_150104.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201004_150117" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201004_150117.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201004_150225" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201004_150225.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201004_150229" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201004_150229.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201004_183452" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201004_183452.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201004_183503" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201004_183503.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201004_184040" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201004_184040.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201024_172218" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201024_172218.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201108_145617" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201108_145617.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201108_145620" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201108_145620.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201108_145734" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201108_145734.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201108_145748" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201108_145748.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201108_150023" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201108_150023.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201108_150038" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201108_150038.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201108_150708" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201108_150708.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201108_150732" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201108_150732.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201108_160915" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201108_160915.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201108_160941" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201108_160941.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201108_161053" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201108_161053.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201108_161108" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201108_161108.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201108_161258" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201108_161258.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201108_161430" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201108_161430.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201108_161441" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201108_161441.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201108_164631" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201108_164631.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201129_115534" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201129_115534.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201129_122543" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201129_122543.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201129_122649" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201129_122649.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201129_122709" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201129_122709.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201129_125317" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201129_125317.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201205_132724" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201205_132724.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201205_145420" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201205_145420.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201205_145433" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201205_145433.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201205_200500" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201205_200500.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201205_200602" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201205_200602.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201205_200611" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201205_200611.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201205_200618" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201205_200618.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201205_200823" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201205_200823.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201205_200827" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201205_200827.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201208_162939" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201208_162939.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201208_163109" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201208_163109.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201211_082934" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201211_082934.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201211_083231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201211_083231.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201211_083323" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201211_083323.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201211_083344" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201211_083344.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201211_083448" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201211_083448.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201211_083533" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201211_083533.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201211_083546" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201211_083546.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201211_083657" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201211_083657.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201211_083723" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201211_083723.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201211_083741" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201211_083741.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201211_084237" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201211_084237.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201211_084817" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201211_084817.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201211_130115" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201211_130115.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201212_084813" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201212_084813.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201213_133548" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201213_133548.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201213_133601" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201213_133601.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201213_133623" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201213_133623.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201215_073143" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201215_073143.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201215_153451" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201215_153451.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201215_153519" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201215_153519.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201215_153524" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201215_153524.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201215_153539" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201215_153539.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201215_153636" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201215_153636.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201215_153719" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201215_153719.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201220_115420" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201220_115420.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201220_115429" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201220_115429.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201220_115446" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201220_115446.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201220_115457" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201220_115457.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201220_115520" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201220_115520.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201220_115525" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201220_115525.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201220_115527" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201220_115527.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201220_115556" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201220_115556.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201220_115642" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201220_115642.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201220_115651" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201220_115651.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201220_115659" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201220_115659.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201220_115705" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201220_115705.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201220_115732" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201220_115732.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201220_115831" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201220_115831.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201224_134511" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201224_134511.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201224_134730" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201224_134730.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201225_095422" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201225_095422.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201226_104934" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201226_104934.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201226_105010" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201226_105010.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201226_105058" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201226_105058.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201226_112839" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201226_112839.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201229_155622" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201229_155622.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201229_155830" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201229_155830.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201229_155934" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201229_155934.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201229_155952" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201229_155952.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201229_160058" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201229_160058.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201229_160115" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201229_160115.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201229_160222" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201229_160222.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201229_160228" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201229_160228.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201229_160305" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201229_160305.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201231_193725" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201231_193725.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201231_193848" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201231_193848.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201231_193952" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201231_193952.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201231_193956" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201231_193956.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201231_194026" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201231_194026.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201231_194030" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201231_194030.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201231_194053" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201231_194053.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201231_194058" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201231_194058.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201231_194115" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201231_194115.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201231_194117" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201231_194117.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201231_194207" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201231_194207.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201231_194229" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201231_194229.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201231_194239" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201231_194239.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201231_194430" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201231_194430.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201231_194456" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201231_194456.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201231_194522" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201231_194522.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201231_194531" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201231_194531.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20201231_194908" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20201231_194908.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20210102_132841" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20210102_132841.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20210102_132855" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20210102_132855.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20210102_132906" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20210102_132906.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20210102_132908" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20210102_132908.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20210102_132947" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20210102_132947.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20210102_133034" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20210102_133034.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20210102_133035" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20210102_133035.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20210102_133053" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20210102_133053.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20210102_133148" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20210102_133148.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20210102_133151" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20210102_133151.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20210102_133940" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20210102_133940.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20210103_124318" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20210103_124318.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20210103_124328" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20210103_124328.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20210105_092406" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20210105_092406.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20210105_092438" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20210105_092438.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

@@ -1,0 +1,1379 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# profile: http://ogp.me/ns/profile#">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<style>body { visibility: hidden; }</style>
+<link rel="stylesheet" href="https://cdn.daniweb.com/css/main-v384.css" type="text/css" media="print" onload="this.media='all'; this.onload=null;">
+
+<script>var dw_csrf_hash = '';</script>
+<script>var csrf_hash = '';</script>
+<script>
+    		    			window.is_desktop = window.innerWidth >= 992;
+    		    	</script>
+
+<script defer id="loadJQ" src="https://cdn.daniweb.com/jquery-3.5.1.min.js"></script>
+
+<script defer src="https://cdn.daniweb.com/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script id="loadDWArticles" defer src="//cdn.daniweb.com/js/articles/group0-v384.js"></script>
+<noscript><link rel="stylesheet" href="https://cdn.daniweb.com/css/main-v384.css" type="text/css"></noscript>
+
+<link rel="stylesheet" href="https://cdn.daniweb.com/fontawesome/css/all.min.css" media="print" onload="this.media='all'; this.onload=null;">
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-98289-1"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        
+        gtag('config', 'UA-98289-1', {
+			'cookie_domain': 'www.daniweb.com',
+                    });
+        </script>
+
+<link rel="home" href="https://www.daniweb.com/">
+<link rel="search" href="https://www.daniweb.com/search/index">
+<title>picturebox - coding for next and previous button in vb.net ... [SOLVED] | DaniWeb</title>
+<link rel="canonical" href="https://www.daniweb.com/programming/software-development/threads/354852/coding-for-next-and-previous-button-in-vb-net-2008">
+<link rel="up" href="https://www.daniweb.com/programming/software-development/2">
+
+<meta name="keywords" content="software development,imagelist,picturebox,vb.net,coding,previous,button,net,forum,community,discussion,message board,help,question,Q&A">
+<meta name="description" content="Hi can somebody help me. This is my coding for button Next and Previous but when I click on next it ...">
+<meta property="og:title" content="coding for next and previous button in vb.net 2008">
+<meta property="og:description" content="Hi can somebody help me. This is my coding for button Next and Previous but when I click on next it just goes to next like from pictures 1 and 2 to pic ...">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.daniweb.com/programming/software-development/threads/354852/coding-for-next-and-previous-button-in-vb-net-2008">
+<link rel="image_src" type="image/png" href="https://static.daniweb.com/connect/images/anonymous.png">
+<meta property="og:image" content="https://static.daniweb.com/connect/images/anonymous.png">
+<meta name="twitter:image" content="https://static.daniweb.com/connect/images/anonymous.png">
+<meta name="twitter:card" content="summary">
+<meta property="og:site_name" content="DaniWeb">
+<meta name="twitter:site" content="@DaniWeb">
+<meta name="twitter:creator" content="@DaniWeb">
+<meta name="twitter:via" content="DaniWeb">
+<meta name="twitter:url" content="https://www.daniweb.com/programming/software-development/threads/354852/coding-for-next-and-previous-button-in-vb-net-2008">
+<meta name="twitter:title" content="coding for next and previous button in vb.net 2008">
+<meta name="twitter:description" content="Hi can somebody help me. This is my coding for button Next and Previous but when I click on next it just goes to next like from pictures 1 and">
+<link rel="amphtml" href="https://www.daniweb.com/programming/software-development/threads/354852/coding-for-next-and-previous-button-in-vb-net-2008/amp">
+<link rel="alternate" type="application/rss+xml" title="Software Development Forum" href="https://www.daniweb.com/rss/2">
+
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script>
+	window.googletag = window.googletag || {cmd: []};
+    googletag.cmd.push(function() {
+    	
+    	if (window.innerWidth >= 768)
+    	{
+    		var leader_size;
+    		if (window.innerWidth >= 1020) { leader_size = [[970, 250], [980, 120], [980, 90], [970, 90], [750, 200], [750, 100], [728, 90]]; } else { leader_size = [[728, 90]]; }
+    		googletag.defineSlot('/86406173/ATFBillboard', leader_size.reverse(), 'div-gpt-ad-1321481451196-0').addService(googletag.pubads());
+    		
+    		if (window.innerWidth >= 992)
+    		{
+    		    var rectangle_size;
+        		
+    			    				rectangle_size = [[300, 250], [300, 600]];
+    			    				    			googletag.defineSlot('/86406173/ArticleMediumRectangle', rectangle_size, 'div-gpt-ad-1321481451196-1').addService(googletag.pubads());
+    			    		}	    
+    	}
+    	else
+    	{
+			googletag.defineSlot('/86406173/ArticleMediumRectangle', [300, 250], 'div-gpt-ad-1321481451196-3').addService(googletag.pubads());
+    	}        	
+
+		var bottom_size;
+		if (window.innerWidth >= 1300) { bottom_size = [[728, 90], [300, 250]]; } else { bottom_size = [300, 250]; }	
+    	
+        
+            		googletag.defineSlot('/86406173/ArticleLeaderboard/BTFArticleLeaderboard', bottom_size, 'div-gpt-ad-1321481451196-2').addService(googletag.pubads());   
+        		    
+
+	    if (window.innerWidth >= 768)
+	    {
+			googletag.defineSlot('/86406173/BottomLeaderboard', leader_size, 'div-gpt-ad-1321481451196-4').addService(googletag.pubads());	    
+	    }
+	        
+    	googletag.pubads().setTargeting('Forum', ['programming','software-development']);
+    	googletag.pubads().setTargeting('Page', 'Articles');	
+    	googletag.pubads().set('adsense_channel_ids', '5271040121');        googletag.pubads().enableLazyLoad({
+			fetchMarginPercent: 200,
+			renderMarginPercent: 100,
+			mobileScaling: 2.0
+        });
+    	googletag.pubads().enableSingleRequest();
+    	googletag.enableServices();
+    	
+    });
+    </script>
+
+</head>
+<body itemscope itemtype="http://schema.org/QAPage">
+<div class="be-wrapper be-fixed-sidebar be-offcanvas-menu">
+<header>
+<nav class="navbar navbar-dark navbar-expand fixed-top">
+<div class="lead text-nowrap mr-5">
+
+<a class="be-toggle-left-sidebar align-middle mr-2" href="#" title="Toggle Menu">
+<i role="presentation" class="icon fas fa-bars dw-btn-icon text-white"></i>
+<span class="sr-only">Menu</span>
+</a>
+
+<a href="/" class="navbar-brand text-hide align-middle">DaniWeb</a>
+</div>
+<div class="navbar-collapse d-flex flex-row-reverse">
+
+<div class="btn-group text-nowrap">
+<a href="/connect/profile/login?uri=%2Fprogramming%2Fsoftware-development%2Fthreads%2F354852%2Fcoding-for-next-and-previous-button-in-vb-net-2008" role="button" class="btn btn-secondary btn-transparent mr-2">
+<i role="presentation" class="fas fa-sign-in-alt fa-fw"></i>Log In
+</a>
+<a href="/connect/profile/login/signup?uri=%2Fprogramming%2Fsoftware-development%2Fthreads%2F354852%2Fcoding-for-next-and-previous-button-in-vb-net-2008" role="button" class="d-none d-md-block btn btn-secondary btn-dw-link">
+<i role="presentation" class="fas fa-user-plus fa-fw"></i>Sign Up
+</a>
+</div>
+<ul class="navbar-nav d-none d-xl-flex">
+<li class="nav-item mr-2">
+<a role="button" class="nav-link" href="/articles/latest/recommended">
+Read
+</a>
+</li>
+<li class="nav-item mr-2">
+<a role="button" class="nav-link" href="/community/contribute/2">
+Contribute
+</a>
+</li>
+</ul>
+
+<div id="dw-search-container" class="d-none d-lg-block w-100 mr-5">
+<form action="/search/index" method="get" role="search" aria-label="Sitewide">
+<div class="input-group input-group-sm">
+<label for="dw-site-search" class="sr-only">Search</label>
+<input id="dw-site-search" type="search" name="q" value="" data-forum-id="2" autocomplete="off" placeholder="Search or jump to &hellip;" class="form-control">
+<span class="input-group-append">
+<button type="submit" class="btn rounded-right bg-white text-dark">
+<i role="presentation" class="fas dw-btn-icon fa-search"></i>
+<span class="sr-only">Search</span>
+</button>
+</span>
+</div>
+</form>
+</div>
+</div>
+</nav>
+<div class="be-left-sidebar">
+<div class="left-sidebar-wrapper">
+<a href="#" class="left-sidebar-toggle">Navigation</a>
+<div class="left-sidebar-spacer">
+<div class="left-sidebar-scroll">
+<div class="left-sidebar-content">
+<form action="/search/index" method="get" role="search" aria-label="Sitewide" class="d-lg-none">
+<div class="input-group input-group-sm pt-2 pr-2 pl-2">
+<label for="dw-sidebar-search" class="sr-only">Search</label>
+<input id="dw-sidebar-search" type="search" name="q" value="" autocomplete="on" placeholder="Search &hellip;" class="form-control">
+<span class="input-group-append">
+<button type="submit" class="btn btn-primary btn-dw rounded-right">
+<i role="presentation" class="fas fa-search dw-btn-icon"></i>
+<span class="sr-only">Search</span>
+</button>
+</span>
+</div>
+</form>
+<ul class="sidebar-elements">
+
+<li role="separator" class="divider">Forum Categories</li>
+<li id="dw-menu-1" class="parent">
+<a href="#">
+<i role="presentation" class="fa-fw material-icons fa-1x align-middle">laptop</i>
+Hardware/Software </a>
+</li>
+<li id="dw-menu-4" class="parent">
+<a href="#">
+<i role="presentation" class="fa-fw material-icons fa-1x align-middle">code</i>
+Programming </a>
+</li>
+<li id="dw-menu-5" class="parent">
+<a href="#">
+<i role="presentation" class="fa-fw material-icons fa-1x align-middle">live_tv</i>
+Digital Media </a>
+</li>
+<li id="dw-menu-3" class="parent">
+<a href="#">
+<i role="presentation" class="fa-fw material-icons fa-1x align-middle">local_cafe</i>
+ Community Center </a>
+</li>
+
+<li role="separator" class="divider">Latest Content</li>
+<li><a href="/articles/latest/newest"><i role="presentation" class="fa-fw fas fa-hourglass-start"></i>Newest Topics</a></li>
+<li><a href="/articles/latest"><i role="presentation" class="fa-fw fas fa-hourglass-end"></i>Latest Topics</a></li>
+<li><a href="/posts/index/0"><i role="presentation" class="fa-fw material-icons fa-1x align-middle">forum</i>Latest Posts</a></li>
+<li><a href="/community/tags/0/articles"><i role="presentation" class="fa-fw fas fa-tag"></i>Top Tags</a></li>
+<li><a href="/rss"><i role="presentation" class="fa-fw fas fa-rss"></i>Topics Feed</a></li>
+
+<li role="separator" class="divider">Social</li>
+<li><a href="/stats/toplist"><i role="presentation" class="fa-fw fas fa-list-ol"></i>Top Members</a></li>
+
+<li role="separator" class="divider"></li>
+<li><a href="/donate/index"><i role="presentation" class="fa-fw fas fa-donate"></i>DaniWeb Premium</a></li>
+<li><a href="/email/archive"><i role="presentation" class="fa-fw fas fa-archive"></i>Newsletter Archive</a></li>
+<li><a href="/welcome/rules"><i role="presentation" class="fa-fw fas fa-gavel"></i>Community Rules</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="/connect/developers"><i role="presentation" class="fa-fw fas fa-code-branch"></i>Connect API</a></li>
+<li><a href="/welcome/api"><i role="presentation" class="fa-fw fas fa-file-code"></i>Forum API Docs</a></li>
+<li><a href="/welcome/advertising"><i role="presentation" class="fa-fw fas fa-comment-dollar"></i>DaniWeb Ads</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="/connect/welcome/tos"><i role="presentation" class="fa-fw fas fa-copyright"></i>Terms of Service</a></li>
+<li><a href="/connect/welcome/privacy"><i role="presentation" class="fa-fw fas fa-user-shield"></i>Privacy Policy</a></li>
+<li><a href="/welcome/faq"><i role="presentation" class="fa-fw far fa-question-circle"></i>FAQ</a></li>
+<li><a href="/welcome/about"><i role="presentation" class="fa-fw fas fa-address-card"></i>About Us</a></li>
+<li><a href="/welcome/contact"><i role="presentation" class="fa-fw fas fa-map-marker-alt"></i>Contact Us</a></li>
+</ul>
+<div class="small text-center text-muted p-5">&copy; 2021 DaniWeb&reg; LLC</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="dw-article" class="be-content" data-id="354852">
+<main>
+
+ <div class="navbar navbar-light be-sub-navigation d-block  py-4 my-0">
+
+<h1 class="mt-0 mb-2 pr-5" itemprop="headline">
+coding for next and previous button in vb.net 2008 <i role="presentation" class="fas fa-check-circle text-success ml-1" data-toggle="tooltip" title="Answered Question"></i>
+</h1>
+
+<nav aria-label="breadcrumb">
+<ol class="mb-0 pl-0 breadcrumb" itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+<li class="breadcrumb-item d-none d-md-block" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+<a href="/" itemprop="item" rel="up"><span itemprop="name">Home</span></a>
+<meta itemprop="position" content="1">
+</li>
+<li class="breadcrumb-item d-none d-md-block" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+<a href="/programming/4" itemprop="item" rel="up">
+<span itemprop="name">
+Programming Forum </span>
+</a>
+<meta itemprop="position" content="2">
+</li>
+<li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+<a href="/programming/software-development/2" itemprop="item" rel="up">
+<span itemprop="name">
+Software Development Forum </span>
+</a>
+<meta itemprop="position" content="3">
+</li>
+<li class="breadcrumb-item d-none d-md-block" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+Discussion / Question <meta itemprop="name" content="picturebox - coding for next and previous button in vb.net ... [SOLVED]">
+<meta itemprop="position" content="4">
+</li>
+</ol>
+</nav>
+</div>
+<div class="d-none d-md-block dw-inject-bsa dw-protect-cls text-center">
+
+<div id="div-gpt-ad-1321481451196-0" class="container-ArticleLeaderboard">
+<script>
+                            if (window.innerWidth >= 768) { googletag.cmd.push(function() { googletag.display('div-gpt-ad-1321481451196-0'); }); }
+                    		</script>
+</div>
+
+</div>
+
+<article id="/programming/software-development/threads/354852/coding-for-next-and-previous-button-in-vb-net-2008" itemprop="mainEntity" itemscope itemtype="http://schema.org/Question">
+<meta itemprop="name" content="coding for next and previous button in vb.net 2008">
+<meta itemprop="interactivityType" content="active">
+<span itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<link itemprop="url" href="https://static.daniweb.com/connect/images/anonymous.png">
+<meta itemprop="height" content="80">
+<meta itemprop="width" content="80">
+</span>
+<div class="main-content container-fluid container-xxl">
+
+
+
+
+<div id="post1509874" data-id="1509874" class="dw-post">
+
+
+<div class="float-left position-relative">
+<span class="dw-has-online">
+<a href="/members/879429/prince87">
+<img class="img-thumbnail rounded-circle" src="//static.daniweb.com/connect/images/anonymous.png" width="60" height="60" alt="Member Avatar">
+</a>
+</span>
+</div>
+<div class="card card-contrast dw-forum-post">
+
+<header class="card-header card-header-contrast clearfix pb-0">
+
+
+<div class="h2 card-title">
+<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+<span class="mr-2">
+<a data-toggle="popover" data-content="9 posts since Jan 2011" href="/members/879429/prince87" itemprop="url">
+<span dir="ltr" itemprop="name">prince87</span>
+</a>
+<span class="badge badge-pill badge-light" data-toggle="tooltip" title="Member Reputation Points"><i role="presentation" class="fas fa-fw fa-trophy"></i>0</span>
+</span>
+<span class="d-none d-sm-inline text-nowrap text-muted">
+<span class="mr-1 small align-middle d-none d-md-inline" itemprop="jobTitle">
+Newbie Poster </span>
+
+</span>
+</span>
+</div>
+<time data-toggle="popover" data-content="Mar 21st, 2011 6:24 pm" datetime="2011-03-21T18:24:36+00:00" itemprop="dateCreated">
+<span class="small">10 Years Ago</span>
+</time>
+</header>
+
+<link itemprop="url" href="https://www.daniweb.com/programming/software-development/threads/354852/coding-for-next-and-previous-button-in-vb-net-2008#post1509874">
+<div class="card-body clearfix">
+
+<div class="dw-post-body clearfix">
+<div itemprop="text">
+<!-- google_ad_section_start -->
+<div class="js-message-parsed">
+<p>Hi can somebody help me. This is my coding for button Next and Previous but when I click on next it just goes to next like from pictures 1 and 2 to pic 3 and 4 but not any more because i have pictures in two imagelist upto 20 but it doesnt work and the coding for button previous also doesnt work same problem.</p>
+<p>
+Next Button Coding</p>
+<pre class="language-clike line-numbers"><code class="language-clike">Private Sub btnNext_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnNext.Click
+        Static imagenumber As Integer
+            Try
+            imagenumber -= 1
+                imageNumber = 0
+            If imageNumber = 0 Or imageNumber &lt; 0 Then
+                imageNumber = ++1
+                PictureBox1.Image = ImageList1.Images(imageNumber)
+                PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
+            End If
+                imageNumber += 1
+                imageNumber = 0
+            If imageNumber &gt; 0 Or imageNumber = 0 Then
+                imageNumber = ++1
+                PictureBox1.Image = ImageList1.Images(imageNumber)
+                PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
+                imageNumber -= 1
+                imageNumber = 0
+                If imageNumber = 0 Or imageNumber &lt; 0 Then
+                    imageNumber = ++1
+                    PictureBox2.Image = ImageList2.Images(imageNumber)
+                    PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
+                End If
+                imageNumber += 1
+                imageNumber = 0
+                If imageNumber &gt; 0 Or imageNumber = 0 Then
+                    imageNumber = ++1
+                    PictureBox2.Image = ImageList2.Images(imageNumber)
+                    PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
+                End If
+            End If
+
+            Catch ex As Exception
+                MsgBox(ex.Message)
+            End Try
+
+        End Sub</code></pre>
+<p>Previous Button coding</p>
+<pre class="language-clike line-numbers"><code class="language-clike">Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+            Static imageNumber As Integer
+
+            Try
+
+            If Not imageNumber &gt; 0 Then
+                imageNumber = --1
+                PictureBox1.Image = ImageList1.Images(imageNumber)
+                PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
+            End If
+
+
+            If Not imageNumber &gt; 0 Then
+                imageNumber = --1
+                PictureBox2.Image = ImageList2.Images(imageNumber)
+                PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
+            End If
+
+            Catch ex As Exception
+        End Try
+        End Sub</code></pre>
+</div>
+<!-- google_ad_section_end -->
+</div>
+</div>
+
+<div class="mt-5 mb-5">
+<span itemprop="keywords">
+<a href="/tags/imagelist" rel="tag" class="badge btn-dw-link"><i role="presentation" class="fas fa-tag fa-fw"></i>imagelist</a>
+<a href="/tags/picturebox" rel="tag" class="badge btn-dw-link"><i role="presentation" class="fas fa-tag fa-fw"></i>picturebox</a>
+<a href="/tags/vb.net" rel="tag" class="badge btn-dw-link"><i role="presentation" class="fas fa-tag fa-fw"></i>vb.net</a>
+</span>
+
+</div>
+
+<div class="btn-group" role="group" data-toggle="tooltip" title="Votes">
+
+<button aria-label="Vote Up" class="dw-upvote btn btn-lg btn-rounded font-weight-bolder btn-secondary" disabled data-vote="1">
+<i role="presentation" class="far fa-fw fa-thumbs-up"></i>
+<span itemprop="upvoteCount">0</span>
+</button>
+<button aria-label="Vote Down" class="dw-downvote btn btn-lg btn-rounded font-weight-bolder btn-secondary" disabled data-vote="-1">
+<i role="presentation" class="far fa-fw fa-thumbs-down"></i>
+<span itemprop="downvoteCount">0</span>
+</button>
+</div>
+<div class="btn-group dw-card-hidden float-right" role="group">
+
+<div data-toggle="tooltip" title="Share">
+<button class="btn btn-lg dw-card-hidden-item shadow-none" data-toggle="modal" data-target="#md-share" id="dw-share-1509874" data-raw-url="" data-url="https://www.daniweb.com/posts/jump/1509874">
+<i role="presentation" class="fas fa-share-alt"></i>
+<span class="sr-only">Share</span>
+</button>
+</div>
+
+</div>
+</div> 
+
+
+<div class="card-footer card-footer-contrast text-muted">
+Edited
+<time itemprop="dateModified" data-toggle="popover" data-content="Mar 21st, 2011 6:30 pm" datetime="2011-03-21T18:30:47+00:00">
+10 Years Ago </time>
+by prince87 because:
+<em itemprop="correction">
+n/a </em>
+</div>
+
+<div class="card-footer card-footer-contrast text-muted">
+
+<ul class="row m-0 text-center text-muted list-inline">
+<li class="col-6 col-lg-2 text-nowrap mb-1">
+<span class="lead">
+<i role="presentation" class="fas fa-large fa-fw fa-user-friends"></i>
+2 </span>
+<span class="d-lg-block">Contributors</span>
+</li>
+<li class="col-6 col-lg-2 text-nowrap mb-1">
+<span class="lead">
+<i role="presentation" class="material-icons fa-fw fa-large align-middle">forum</i>
+<span itemprop="answerCount">
+2 </span>
+</span>
+<span class="d-lg-block">Replies</span>
+</li>
+<li class="col-6 col-lg-2 text-nowrap mb-1">
+<span class="lead">
+<i role="presentation" class="fas fa-large fa-fw fa-users"></i>
+3,256 </span>
+<span class="d-lg-block">Views</span>
+</li>
+<li class="col-6 col-lg-3 col-xl-2 mb-1">
+<span class="lead">
+<i role="presentation" class="fas fa-large fa-fw fa-stopwatch"></i>
+17 Hours </span>
+<span class="d-none d-md-inline d-lg-block">Discussion Span</span>
+</li>
+<li class="col-12 col-lg-3 col-xl-4">
+<span class="lead">
+<i role="presentation" class="material-icons fa-fw fa-large align-middle">comment</i>
+</span>
+<span class="d-lg-none mr-2">Latest Post</span>
+<span class="lead">
+<a href="/programming/software-development/threads/354852/coding-for-next-and-previous-button-in-vb-net-2008#post1510524">
+<time data-toggle="popover" data-content="Mar 22nd, 2011 6:12 am" datetime="2011-03-22T06:12:51+00:00">
+10 Years Ago </time>
+</a>
+</span>
+<span class="d-none d-lg-block">
+Latest Post
+<span class="d-none d-xl-inline">by prince87</span>
+</span>
+</li>
+</ul>
+</div>
+</div>
+
+
+<div class="dw-comments" hidden></div>
+
+</div>
+
+<div class="row">
+<div class="col dw-col-container">
+
+<div class="d-md-none text-center mb-5">
+<div id="div-gpt-ad-1321481451196-3">
+<script>
+                                        				if (window.innerWidth < 768) { googletag.cmd.push(function() { googletag.display('div-gpt-ad-1321481451196-3'); }); }
+                                        				</script>
+</div>
+</div>
+
+<h2 class="h5 font-weight-bold mb-5 text-dw">Recommended Answers</h2>
+<div class="dw-replies position-relative">
+<div class="card card-contrast dw-card-shadow dw-forum-post">
+ 
+<div class="card-header">
+<div class="page-header m-0">
+
+Answered by
+<a href="/members/811140/codeorder"><span dir="ltr">codeorder</span></a>
+<span class="badge badge-pill badge-light" data-toggle="tooltip" title="Member Reputation Points"><i role="presentation" class="fas fa-fw fa-trophy"></i>197</span>
+
+in a
+<a href="/programming/software-development/threads/354852/coding-for-next-and-previous-button-in-vb-net-2008#post1510181">
+post from
+<time data-toggle="popover" data-content="Mar 21st, 2011 11:17 pm" datetime="2011-03-21T23:17:50+00:00">
+10 Years Ago </time>
+</a>
+</div>
+</div>
+<div class="card-body">
+<blockquote cite="/programming/software-development/threads/354852/coding-for-next-and-previous-button-in-vb-net-2008#post1510181">
+<p>See if this helps.</p>
+<pre class="language-clike line-numbers"><code class="language-clike">Public Class Form1
+    Private iImageNumber As Integer = 0 '// for images Index in ImageLists.
+
+    Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        '// set .SizeMode once.
+        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
+        setImages() '// set images to PictureBoxes …</code></pre>
+</blockquote>
+<a class="btn btn-primary btn-rounded" href="/programming/software-development/threads/354852/coding-for-next-and-previous-button-in-vb-net-2008#post1510181">Jump to Post</a>
+</div>
+</div>
+</div>
+<h2 class="h5 font-weight-bold mt-5 mb-5 text-dw">
+All 2 Replies
+</h2>
+
+<div id="js-replies" class="dw-replies position-relative">
+
+
+
+
+<article id="post1510181" data-id="1510181" class="dw-post" itemprop=" acceptedAnswer" itemscope itemtype="http://schema.org/Answer">
+<meta itemprop="headline" content="Re: coding for next and previous button in vb.net 2008">
+<span itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<link itemprop="url" href="https://static.daniweb.com/avatars/3/member811140.jpg">
+<meta itemprop="height" content="80">
+<meta itemprop="width" content="80">
+</span>
+
+
+
+<div class="float-left position-relative">
+<span class="dw-has-online">
+<a href="/members/811140/codeorder">
+<img loading="lazy" class="img-thumbnail rounded-circle" src="//static.daniweb.com/avatars/3/member811140.jpg" width="60" height="60" alt="Member Avatar">
+</a>
+</span>
+</div>
+<div class="card card-contrast dw-forum-post">
+
+<header class="card-header card-header-contrast clearfix pb-0">
+
+
+<div class="h2 card-title">
+<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+<span class="mr-2">
+<a data-toggle="popover" data-content="2,027 posts since Aug 2010" href="/members/811140/codeorder" itemprop="url">
+<span dir="ltr" itemprop="name">codeorder</span>
+</a>
+<span class="badge badge-pill badge-light" data-toggle="tooltip" title="Member Reputation Points"><i role="presentation" class="fas fa-fw fa-trophy"></i>197</span>
+</span>
+<span class="d-none d-sm-inline text-nowrap text-muted">
+<span class="mr-1 small align-middle d-none d-xxl-inline" itemprop="jobTitle">
+Nearly a Posting Virtuoso </span>
+
+</span>
+</span>
+</div>
+<time data-toggle="popover" data-content="Mar 21st, 2011 11:17 pm" datetime="2011-03-21T23:17:50+00:00" itemprop="dateCreated">
+<span class="small">10 Years Ago</span>
+</time>
+</header>
+
+<link itemprop="url" href="https://www.daniweb.com/programming/software-development/threads/354852/coding-for-next-and-previous-button-in-vb-net-2008#post1510181">
+<div class="card-body clearfix">
+
+<div class="dw-post-body clearfix">
+<div itemprop="text">
+<!-- google_ad_section_start -->
+<div class="js-message-parsed">
+<p>See if this helps.</p>
+<pre class="language-clike line-numbers"><code class="language-clike">Public Class Form1
+    Private iImageNumber As Integer = 0 '// for images Index in ImageLists.
+
+    Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        '// set .SizeMode once.
+        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
+        setImages() '// set images to PictureBoxes if needed.
+        '// for testing.
+        Button1.Text = "Previous" : Button2.Text = "Next"
+    End Sub
+
+    '// btnPrevious.
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        '// check if Not first image Then subtract -1, Else set # for last Image if wanting to loop thru images.
+        If Not iImageNumber = 0 Then iImageNumber -= 1 Else iImageNumber = ImageList1.Images.Count - 1
+        '// used ImageList1.Images.Count since both PictureBoxes seem to work with the same amount of images and no need to check both ImageLists.
+        setImages()
+    End Sub
+
+    '// btnNext.
+    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+        '// check if Not last image Then add +1, Else set # for first Image if wanting to loop thru images.
+        If Not iImageNumber = ImageList1.Images.Count - 1 Then iImageNumber += 1 Else iImageNumber = 0
+        setImages()
+    End Sub
+
+    Private Sub setImages()
+        PictureBox1.Image = ImageList1.Images(iImageNumber)
+        PictureBox2.Image = ImageList2.Images(iImageNumber)
+    End Sub
+End Class</code></pre>
+</div>
+<!-- google_ad_section_end -->
+</div>
+</div>
+
+
+<div class="btn-group" role="group" data-toggle="tooltip" title="Votes">
+
+<button aria-label="Vote Up" class="dw-upvote btn btn-lg btn-rounded font-weight-bolder btn-secondary" disabled data-vote="1">
+<i role="presentation" class="far fa-fw fa-thumbs-up"></i>
+<span itemprop="upvoteCount">3</span>
+</button>
+<button aria-label="Vote Down" class="dw-downvote btn btn-lg btn-rounded font-weight-bolder btn-secondary" disabled data-vote="-1">
+<i role="presentation" class="far fa-fw fa-thumbs-down"></i>
+<span itemprop="downvoteCount">0</span>
+</button>
+</div>
+<span class="btn-group dw-featured-answer">
+<i role="presentation" class="fas text-success fa-2x fa-check ml-2" data-toggle="tooltip" title="Recommended Answer"></i>
+</span>
+<div class="btn-group dw-card-hidden float-right" role="group">
+
+<div data-toggle="tooltip" title="Share">
+<button class="btn btn-lg dw-card-hidden-item shadow-none" data-toggle="modal" data-target="#md-share" id="dw-share-1510181" data-raw-url="" data-url="https://www.daniweb.com/posts/jump/1510181">
+<i role="presentation" class="fas fa-share-alt"></i>
+<span class="sr-only">Share</span>
+</button>
+</div>
+
+</div>
+</div> 
+
+</div>
+
+
+<div class="dw-comments">
+<div itemprop="comment" itemscope itemtype="http://schema.org/Comment" class="dw-comment-card card card-border-color card-border-color-success" data-vote="1" data-member-id="149842">
+<div class="card-body pb-1">
+<span>
+<span class="text-muted">
+<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+<a itemprop="url" href="/members/149842/debasisdas"><span itemprop="name">debasisdas</span></a>
+</span>
+commented:
+</span>
+<span itemprop="text">I love the way you have coded.</span>
+<span data-toggle="tooltip" title="Reputation Points Awarded" class="badge badge-pill badge-default">+8</span>
+</span>
+</div>
+</div>
+</div>
+
+</article>
+
+
+
+
+
+<article id="post1510524" data-id="1510524" class="dw-post" itemprop="suggestedAnswer" itemscope itemtype="http://schema.org/Answer">
+<meta itemprop="headline" content="Re: coding for next and previous button in vb.net 2008">
+<span itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<link itemprop="url" href="https://static.daniweb.com/connect/images/anonymous.png">
+<meta itemprop="height" content="80">
+<meta itemprop="width" content="80">
+</span>
+
+
+
+<div class="float-left position-relative">
+<span class="dw-has-online">
+<a href="/members/879429/prince87">
+<img loading="lazy" class="img-thumbnail rounded-circle" src="//static.daniweb.com/connect/images/anonymous.png" width="60" height="60" alt="Member Avatar">
+</a>
+</span>
+</div>
+<div class="card card-contrast dw-forum-post">
+
+<header class="card-header card-header-contrast clearfix pb-0">
+
+
+<div class="h2 card-title">
+<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+<span class="mr-2">
+<a data-toggle="popover" data-content="9 posts since Jan 2011" href="/members/879429/prince87" itemprop="url">
+<span dir="ltr" itemprop="name">prince87</span>
+</a>
+<span class="badge badge-pill badge-light" data-toggle="tooltip" title="Member Reputation Points"><i role="presentation" class="fas fa-fw fa-trophy"></i>0</span>
+</span>
+<span class="d-none d-sm-inline text-nowrap text-muted">
+<span class="mr-1 small align-middle d-none d-xxl-inline" itemprop="jobTitle">
+Newbie Poster </span>
+
+</span>
+</span>
+</div>
+<time data-toggle="popover" data-content="Mar 22nd, 2011 6:12 am" datetime="2011-03-22T06:12:51+00:00" itemprop="dateCreated">
+<span class="small">10 Years Ago</span>
+</time>
+</header>
+
+<link itemprop="url" href="https://www.daniweb.com/programming/software-development/threads/354852/coding-for-next-and-previous-button-in-vb-net-2008#post1510524">
+<div class="card-body clearfix">
+
+<div class="dw-post-body clearfix">
+<div itemprop="text">
+<!-- google_ad_section_start -->
+<div class="js-message-parsed"><p>Thank You Friend You sort out my problem . it working now........</p></div>
+<!-- google_ad_section_end -->
+</div>
+</div>
+
+
+<div class="btn-group" role="group" data-toggle="tooltip" title="Votes">
+
+<button aria-label="Vote Up" class="dw-upvote btn btn-lg btn-rounded font-weight-bolder btn-secondary" disabled data-vote="1">
+<i role="presentation" class="far fa-fw fa-thumbs-up"></i>
+<span itemprop="upvoteCount">0</span>
+</button>
+<button aria-label="Vote Down" class="dw-downvote btn btn-lg btn-rounded font-weight-bolder btn-secondary" disabled data-vote="-1">
+<i role="presentation" class="far fa-fw fa-thumbs-down"></i>
+<span itemprop="downvoteCount">0</span>
+</button>
+</div>
+<span class="btn-group dw-featured-answer">
+<i role="presentation" class="fas text-dw fa-2x fa-user-edit ml-2" data-toggle="tooltip" title="Discussion Starter"></i>
+</span>
+<div class="btn-group dw-card-hidden float-right" role="group">
+
+<div data-toggle="tooltip" title="Share">
+<button class="btn btn-lg dw-card-hidden-item shadow-none" data-toggle="modal" data-target="#md-share" id="dw-share-1510524" data-raw-url="" data-url="https://www.daniweb.com/posts/jump/1510524">
+<i role="presentation" class="fas fa-share-alt"></i>
+<span class="sr-only">Share</span>
+</button>
+</div>
+
+</div>
+</div> 
+
+
+<div class="card-footer card-footer-contrast text-muted">
+Edited
+<time itemprop="dateModified" data-toggle="popover" data-content="Mar 22nd, 2011 6:17 am" datetime="2011-03-22T06:17:43+00:00">
+10 Years Ago </time>
+by prince87 because:
+<em itemprop="correction">
+n/a </em>
+</div>
+</div>
+
+
+<div class="dw-comments" hidden></div>
+
+</article>
+
+<div class="mb-5 text-center dw-inject-bsa">
+<div id="div-gpt-ad-1321481451196-2" class="container-BottomLeaderboard">
+<script>
+                                                        		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1321481451196-2'); });
+                                                        		</script>
+</div>
+</div>
+</div>
+<div class="dw-social-icons" data-id="354852">
+<div class="dw-social btn-group btn-space" data-platform="facebook">
+<button class="btn btn-color btn-social btn-facebook" type="button" data-url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.daniweb.com%2Fprogramming%2Fsoftware-development%2Fthreads%2F354852%2Fcoding-for-next-and-previous-button-in-vb-net-2008">
+<i role="presentation" class="icon fab fa-facebook-f dw-btn-icon"></i>
+<span class="sr-only">Facebook</span>
+</button>
+<button class="btn btn-secondary" type="button" data-url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.daniweb.com%2Fprogramming%2Fsoftware-development%2Fthreads%2F354852%2Fcoding-for-next-and-previous-button-in-vb-net-2008">Like</button>
+</div>
+<div class="dw-social btn-group btn-space" data-platform="twitter">
+<button class="btn btn-color btn-social btn-twitter" type="button" data-url="https://twitter.com/intent/tweet?text=coding+for+next+and+previous+button+in+vb.net+2008&amp;via=daniweb&amp;url=https%3A%2F%2Fwww.daniweb.com%2Fprogramming%2Fsoftware-development%2Fthreads%2F354852%2Fcoding-for-next-and-previous-button-in-vb-net-2008">
+<i role="presentation" class="icon fab fa-twitter dw-btn-icon"></i>
+<span class="sr-only">Twitter</span>
+</button>
+<button class="btn btn-secondary" type="button" data-url="https://twitter.com/intent/tweet?text=coding+for+next+and+previous+button+in+vb.net+2008&amp;via=daniweb&amp;url=https%3A%2F%2Fwww.daniweb.com%2Fprogramming%2Fsoftware-development%2Fthreads%2F354852%2Fcoding-for-next-and-previous-button-in-vb-net-2008">Tweet</button>
+</div>
+</div>
+<div class="card card-border my-5">
+<div class="card-body p-6">
+<div class="lead font-weight-bold">
+Be a part of the DaniWeb community
+</div>
+<p class="h4">
+We're a friendly, industry-focused community of
+1.20 million developers, IT pros, digital marketers,
+and technology enthusiasts learning and sharing knowledge.
+</p>
+<div class="mt-2">
+<a class="btn btn-primary btn-dw btn-xl" href="/connect/profile/login/signup?uri=%2Fprogramming%2Fsoftware-development%2Fthreads%2F354852%2Fcoding-for-next-and-previous-button-in-vb-net-2008">
+<i role="presentation" class="fas fa-user-plus fa-fw"></i>
+Sign Up &mdash; It's Free!
+</a>
+</div>
+</div>
+</div>
+</div>
+
+<aside class="col-lg-auto dw-col-sidebar">
+
+<div class="d-none d-lg-block text-center">
+<div id="div-gpt-ad-1321481451196-1" class="container-ArticleMediumRectangle">
+<script>
+                                        				if (window.innerWidth >= 992) { googletag.cmd.push(function() { googletag.display('div-gpt-ad-1321481451196-1'); }); }
+                                        				</script>
+</div>
+</div>
+
+<div class="sticky-top">
+<div class="h3">Related Topics</div>
+<ul class="list-unstyled">
+<li class="mb-1">
+<a class="text-muted" title="I have about 30 PictureBox controls on my form and I was wondering how would I be able to calculate the load time for a certain amount of those PictureBox controls. For example, I have 15 on one tab and 15 on the other. How would I create a ProgressBar ..." href="/programming/software-development/threads/404319/picturebox-loading-help">
+<img loading="lazy" class="rounded-circle" src="//static.daniweb.com/avatars/avatar913416.gif" width="15" height="15" alt="Member Avatar" title="NetJunkie">
+PictureBox Loading Help
+<span class="font-weight-bold ml-1 small" data-toggle="tooltip" title="Replies">
+1 </span>
+</a>
+</li>
+<li class="mb-1">
+<a class="text-muted" title="I am trying to make a program where there are several pictureboxes with different pictures. When i click on one, a new one forms at some location on the form. When i utilize the given code, t gives a system null reference, saying I need to add a &quot;new&quot; statement ..." href="/programming/software-development/threads/355978/picturebox-array-how-does-it-work">
+<img loading="lazy" class="rounded-circle" src="//static.daniweb.com/connect/images/anonymous.png" width="15" height="15" alt="Member Avatar" title="YodaMerlin">
+PictureBox Array - how does it work? 
+<span class="font-weight-bold ml-1 small" data-toggle="tooltip" title="Replies">
+0 </span>
+</a>
+</li>
+<li class="mb-1">
+<a class="text-muted" title="Hello, I am trying to make a program to calculate the payment for a babysitter like this:
+A babysitter charges $5 an hour until 9:00 p.m., at which point the rate drops to $3 an hour because the kids are in bed
+# the start and end times are in ..." href="/programming/software-development/threads/232139/help-with-if-elif-statement">
+<img loading="lazy" class="rounded-circle" src="//static.daniweb.com/connect/images/anonymous.png" width="15" height="15" alt="Member Avatar" title="rociel">
+Help with if , elif statement
+<span class="font-weight-bold ml-1 small" data-toggle="tooltip" title="Replies">
+1 </span>
+</a>
+</li>
+<li class="mb-1">
+<a class="text-muted" title="i am doing a makeup and hairstyle makeover application in vb.net and i dont know if i can directly edit a photo in a picture box, the features of the project will be:
+
+1. make-up features are a must.
+2. it should save the original photo uploaded and the edited ..." href="/programming/software-development/threads/345710/photo-editing-in-vb-net">
+<img loading="lazy" class="rounded-circle" src="//static.daniweb.com/connect/images/anonymous.png" width="15" height="15" alt="Member Avatar" title="kazekagerandy">
+<i role="presentation" class="fas fa-check-circle dw-btn-icon-lg text-success align-middle" data-toggle="tooltip" title="Answered Question"></i>
+photo editing in vb.net
+<span class="font-weight-bold ml-1 small" data-toggle="tooltip" title="Replies">
+20 </span>
+</a>
+</li>
+<li class="mb-1">
+<a class="text-muted" title="how can i crop an image based on the size of my picturebox? 
+
+my picturebox&#39;s size mode is normal, i want to have for example, a 100 x 100 image using a 100 x 100 picture box, also i can drag the the image inside the picturebox so that i ..." href="/programming/software-development/threads/357025/image-cropping-using-picturebox">
+<img loading="lazy" class="rounded-circle" src="//static.daniweb.com/connect/images/anonymous.png" width="15" height="15" alt="Member Avatar" title="kazekagerandy">
+<i role="presentation" class="fas fa-check-circle dw-btn-icon-lg text-success align-middle" data-toggle="tooltip" title="Answered Question"></i>
+image cropping using picturebox
+<span class="font-weight-bold ml-1 small" data-toggle="tooltip" title="Replies">
+3 </span>
+</a>
+</li>
+<li class="mb-1">
+<a class="text-muted" title="I am trying to understand COM memory layout and using C++ classes just confuses me.  In general I understand what is going on with the double indirection of function pointers but as so often is the case in programming one must understand the ugly details – not just the generalities. ..." href="/programming/software-development/threads/143432/com-memory-layout-vtable-and-function-pointer-issues-and-questions">
+<img loading="lazy" class="rounded-circle" src="//static.daniweb.com/connect/images/anonymous.png" width="15" height="15" alt="Member Avatar" title="Frederick2">
+COM Memory Layout, Vtable, and Function Pointer Issues And Questions
+<span class="font-weight-bold ml-1 small" data-toggle="tooltip" title="Replies">
+3 </span>
+</a>
+</li>
+<li class="mb-1">
+<a class="text-muted" title="Hey all,
+
+I have a htpc project that I am working on. The main program loads dlls which are basically other win forms. On each of these forms, including the main program, I use a picturebox (double buffered picturebox) for the background image and then draw everything on it by ..." href="/programming/software-development/threads/325884/flickering-problem-with-double-buffered-picturebox-not-double-buffered-problem">
+<img loading="lazy" class="rounded-circle" src="//static.daniweb.com/connect/images/anonymous.png" width="15" height="15" alt="Member Avatar" title="spiffy577">
+Flickering problem with Double Buffered Picturebox (not double buffered problem..)
+<span class="font-weight-bold ml-1 small" data-toggle="tooltip" title="Replies">
+3 </span>
+</a>
+</li>
+<li class="mb-1">
+<a class="text-muted" title="I&#39;m having a bit of a problem with coordinates and mapping PictureBoxes. Here&#39;s the situation:
+
+I&#39;ve got a PictureBox holding an image of a football pitch. The aim is to record the shot positions on this pitch. So whenever the mouse is clicked on the pitch, I am recording the ..." href="/programming/software-development/threads/332706/picturebox-coordinates">
+<img loading="lazy" class="rounded-circle" src="//static.daniweb.com/connect/images/anonymous.png" width="15" height="15" alt="Member Avatar" title="iWarrior">
+PictureBox Coordinates
+<span class="font-weight-bold ml-1 small" data-toggle="tooltip" title="Replies">
+2 </span>
+</a>
+</li>
+ <li class="mb-1">
+<a class="text-muted" title="Here is the solution to converting decimal no. to binary using while loop
+this code is in c++
+ [code]
+#include&lt;iostream.h&gt;
+#include&lt;conio.h&gt;
+void main()
+{
+ clrscr();
+ unsigned long int y,i=0,j=0,r,k[50];
+ unsigned long a,x,b[50];
+ cout&lt;&lt;&quot;\nEnter a decimal no. &quot;;
+ cin&gt;&gt;a;
+ y=a;
+ x=a-y;
+ while(y&gt;0)
+ {
+  r=y%2;
+  k[i]=r;
+  i++;
+  y=y/2;
+ }
+ int m=0;
+ while(m&lt;10) ..." href="/programming/software-development/threads/54706/decimal-to-binary-conversion">
+<img loading="lazy" class="rounded-circle" src="//static.daniweb.com/connect/images/anonymous.png" width="15" height="15" alt="Member Avatar" title="vinay raja">
+decimal to binary conversion
+<span class="font-weight-bold ml-1 small" data-toggle="tooltip" title="Replies">
+3 </span>
+</a>
+</li>
+<li class="mb-1">
+<a class="text-muted" title="Hi All, 
+
+I am trying to update my form once the delete button is clicked. There are several fields like Name, Date, Date of Birth and so on. Once I delete a record I want the form to automatically load with new / updated data. This form fetches data from ..." href="/programming/software-development/threads/357701/vb-form-refreshing">
+<img loading="lazy" class="rounded-circle" src="//static.daniweb.com/connect/images/anonymous.png" width="15" height="15" alt="Member Avatar" title="ashwinshenoy">
+Vb form refreshing
+<span class="font-weight-bold ml-1 small" data-toggle="tooltip" title="Replies">
+3 </span>
+</a>
+</li>
+<li class="mb-1">
+<a class="text-muted" title="Hey guys, 
+
+I am trying to find .NET Framework Configuration Tool which used to be in the control panel for older versions such as .Net Framework 2.0.  I just noticed that it is not there anymore, and mscorcfg.msc is also missing from the machine.  I googled on it and one ..." href="/programming/software-development/threads/399211/missing-net-framework-configuration-tool">
+<img loading="lazy" class="rounded-circle" src="//static.daniweb.com/avatars/2/member673655.jpeg" width="15" height="15" alt="Member Avatar" title="bluehangook629">
+<i role="presentation" class="fas fa-check-circle dw-btn-icon-lg text-success align-middle" data-toggle="tooltip" title="Answered Question"></i>
+Missing .Net Framework configuration tool
+<span class="font-weight-bold ml-1 small" data-toggle="tooltip" title="Replies">
+3 </span>
+</a>
+</li>
+<li class="mb-1">
+<a class="text-muted" title="Hello friends, I have a small problem with creating XML documents. After creating the XML when I try to get a XML document as string using .toxml() or .toprettyxml() functions i got escaped string.
+
+[CODE=python]
+&gt;&gt;&gt; from xml.dom.minidom import Document
+&gt;&gt;&gt; html = &#39;&lt;a href=&quot;http://www.google.com/&quot;&gt;Google&lt;/a&gt;&#39;
+&gt;&gt;&gt; doc = Document()
+&gt;&gt;&gt; ..." href="/programming/software-development/threads/349816/document-toxml-without-escaping-html-chars">
+<img loading="lazy" class="rounded-circle" src="//static.daniweb.com/avatars/avatar523659.gif" width="15" height="15" alt="Member Avatar" title="Krstevski">
+<i role="presentation" class="fas fa-check-circle dw-btn-icon-lg text-success align-middle" data-toggle="tooltip" title="Answered Question"></i>
+Document.toxml() without escaping HTML chars
+<span class="font-weight-bold ml-1 small" data-toggle="tooltip" title="Replies">
+1 </span>
+</a>
+</li>
+<li class="mb-1">
+<a class="text-muted" title="I am working on a web application that builds a KML file using a list of coordinates and is supposed to display them on Google maps when you click a button.  When I&#39;m testing it on desktop it works, as it brings up google earth with no problem.  However, when ..." href="/programming/mobile-development/threads/397173/an-asp-net-generted-kml-file-how-to-properly-open-it-on-android">
+<img loading="lazy" class="rounded-circle" src="//static.daniweb.com/connect/images/anonymous.png" width="15" height="15" alt="Member Avatar" title="screwfacecapone">
+An ASP.Net generted KML file - how to properly open it on Android
+<span class="font-weight-bold ml-1 small" data-toggle="tooltip" title="Replies">
+0 </span>
+</a>
+</li>
+<li class="mb-1">
+<a class="text-muted" title="Hi,
+I&#39;m trying to render a checkbox in a datagridview column header so that when the checkbox is checked/unchecked all the cells in that column should be checked/unchecked accordingly. The datagridview is bound to a database table but the column containing the checkbox header cell is unbound. The problem is, ..." href="/programming/software-development/threads/382035/datagridview-checkbox-column-header-cell-net-4-0">
+<img loading="lazy" class="rounded-circle" src="//static.daniweb.com/connect/images/anonymous.png" width="15" height="15" alt="Member Avatar" title="priyamtheone">
+<i role="presentation" class="fas fa-check-circle dw-btn-icon-lg text-success align-middle" data-toggle="tooltip" title="Answered Question"></i>
+DataGridView checkbox column header cell (.Net 4.0).
+<span class="font-weight-bold ml-1 small" data-toggle="tooltip" title="Replies">
+ 2 </span>
+</a>
+</li>
+<li class="mb-1">
+<a class="text-muted" title="Hello, im trying to convert an old vb project from 2008 to 2010. Ive tried using vb 2010&#39;s convert wizard aswell as changing the .sln file manually. When i try to convert the project automatically using the wizard it gives me an error saying that the project type is not ..." href="/programming/software-development/threads/352247/convert-vb-2008-project-to-2010">
+<img loading="lazy" class="rounded-circle" src="//static.daniweb.com/connect/images/anonymous.png" width="15" height="15" alt="Member Avatar" title="brynFlew">
+<i role="presentation" class="fas fa-check-circle dw-btn-icon-lg text-success align-middle" data-toggle="tooltip" title="Answered Question"></i>
+Convert vb 2008 project to 2010
+<span class="font-weight-bold ml-1 small" data-toggle="tooltip" title="Replies">
+5 </span>
+</a>
+</li>
+<li class="mb-1">
+<a class="text-muted" title="Hi Folks,
+
+I wonder if anyone knows what is happening here because I&#39;m very confused... 
+
+I have some nested repeater that I&#39;m using to display a list of Categories, projects and tasks on my ASP.net site written in VB.net
+
+i.e.
+Repeater 1 Category
+   Repeater 2 Project
+    Repeater 3 Task
+
+In ..." href="/programming/web-development/threads/283650/values-not-being-returned-server-side-from-nested-repeater">
+<img loading="lazy" class="rounded-circle" src="//static.daniweb.com/connect/images/anonymous.png" width="15" height="15" alt="Member Avatar" title="G_Waddell">
+<i role="presentation" class="fas fa-check-circle dw-btn-icon-lg text-success align-middle" data-toggle="tooltip" title="Answered Question"></i>
+Values not being returned server side from nested repeater
+<span class="font-weight-bold ml-1 small" data-toggle="tooltip" title="Replies">
+1 </span>
+</a>
+</li>
+<li class="mb-1">
+<a class="text-muted" title="Hi
+
+I know there are some posts addressing the same issue but unfortunately I do not understand how to do it and was wondering if someone could help. 
+
+I would like to cycle through pictureboxes, in this example using the &#39;n&#39; variable
+To further explain what I would like to ..." href="/programming/software-development/threads/367635/looping-pictureboxes">
+<img loading="lazy" class="rounded-circle" src="//static.daniweb.com/connect/images/anonymous.png" width="15" height="15" alt="Member Avatar" title="djjavo">
+Looping Pictureboxes.
+ <span class="font-weight-bold ml-1 small" data-toggle="tooltip" title="Replies">
+2 </span>
+</a>
+</li>
+<li class="mb-1">
+<a class="text-muted" title="I try to develop the program with C# VS in Windows Mobile5.0 
+My application up and running, however when I scan the barcode and get the data from database it work fine.
+Once I keep scan the barcode for a while. Program stop working and sometime can be terminate as ..." href="/programming/software-development/threads/354835/i-have-a-problem-with-the-stack-overflow-in-c-program-net-cf2-0">
+<img loading="lazy" class="rounded-circle" src="//static.daniweb.com/connect/images/anonymous.png" width="15" height="15" alt="Member Avatar" title="prutudom">
+I have a problem with the Stack Overflow in C# Program .NET CF2.0
+<span class="font-weight-bold ml-1 small" data-toggle="tooltip" title="Replies">
+15 </span>
+</a>
+</li>
+<li class="mb-1">
+<a class="text-muted" title="Friends I m workin on vb.net ado.net oledb, I have also added datagrid Control to my form
+
+for retriving database from .Mdb file i used following code
+
+[code]
+&#39;decleared Name Space
+Imports System.Data.OleDb
+
+
+&#39;Dicleared Variabls in Class  Form1 
+
+Dim con As New OleDb.OleDbConnection
+
+    Dim ds As New DataSet
+    Dim da ..." href="/programming/software-development/threads/266922/showing-current-record-of-dataset-in-datagrid">
+<img loading="lazy" class="rounded-circle" src="//static.daniweb.com/connect/images/anonymous.png" width="15" height="15" alt="Member Avatar" title="digitalsindhx">
+<i role="presentation" class="fas fa-check-circle dw-btn-icon-lg text-success align-middle" data-toggle="tooltip" title="Answered Question"></i>
+showing current record of dataset in datagrid
+<span class="font-weight-bold ml-1 small" data-toggle="tooltip" title="Replies">
+5 </span>
+</a>
+</li>
+<li class="mb-1">
+<a class="text-muted" title="hi, i&#39;m new to vb.net.is it possible to link item in drop down list to image? for example if i click &quot;computer&quot; in the drop down list, the image of the computer will appear. sorry if my question sounds silly. i&#39;m really a newbie in vb.thanks for ur help." href="/programming/software-development/threads/387857/drop-down-list">
+<img loading="lazy" class="rounded-circle" src="//static.daniweb.com/connect/images/anonymous.png" width="15" height="15" alt="Member Avatar" title="tenshi">
+<i role="presentation" class="fas fa-check-circle dw-btn-icon-lg text-success align-middle" data-toggle="tooltip" title="Answered Question"></i>
+ drop down list
+<span class="font-weight-bold ml-1 small" data-toggle="tooltip" title="Replies">
+9 </span>
+</a>
+</li>
+</ul>
+<div class="mt-6">
+<div class="h4">Not what you need?</div>
+<p class="text-muted">
+Reach out to all the awesome people in our software development community by starting your own topic.
+We equally welcome both specific questions as well as open-ended discussions.
+</p>
+<a href="/community/contribute/2" class="btn btn-dw-link"><i role="presentation" class="fas fa-edit fa-fw"></i>Start New Topic</a>
+</div>
+
+<div class="mt-5">
+<a href="https://www.daniweb.com/rss/2" class="btn btn-rss btn-xs"><i role="presentation" class="fas fa-rss fa-fw"></i>Topics Feed</a>
+</div>
+</div>
+</aside>
+
+</div>
+</div>
+</article>
+</main>
+<div id="js-quick-reply" class="container fixed-bottom sticky-top">
+<div class="card card-contrast dw-forum-post" id="dw-quick-reply">
+<a class="d-block clearfix card-header card-header-contrast dw-header btn-dw btn-lg font-weight-bold collapsed" href="#dw-reply-body" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="dw-reply-body">
+<span class="d-block position-relative">
+<span class="d-block position-absolute w-100">
+<span class="close md-close dw-btn-close dw-reply-body dw-collapsed-display">
+<i role="presentation" class="far fa-window-minimize"></i>
+</span>
+</span>
+<span class="d-block text-center">
+<i role="presentation" class="material-icons fa-fw fa-2x align-middle">add_comment</i>
+Reply to this Topic
+</span>
+</span>
+</a>
+<div id="dw-reply-body" class="js-reply-container dw-reply-body card-body collapse overflow-hidden">
+<form action="https://www.daniweb.com/members/join" data-id="oauth" id="js-reply-form" method="post" accept-charset="utf-8">
+<input type="hidden" name="referer" value="programming/software-development/threads/354852/coding-for-next-and-previous-button-in-vb-net-2008">
+
+<div class="alert alert-warning alert-icon" role="alert">
+<div class="icon"><i role="presentation" class="fas fa-exclamation-triangle dw-btn-icon"></i></div>
+<div class="message">
+<strong>This question has already been solved!</strong>
+The person who asked this question has marked it as solved.
+Solved questions live forever in our knowledge base where they go on to help others facing the same issues for years to come.
+Are you sure you have something valuable to add that has not already been mentioned?
+Consider <a href="/community/contribute/2/imagelist+picturebox+vb.net">starting a new topic</a> instead.
+Otherwise, please be thoughtful, detailed and courteous, and adhere to our <a href="/welcome/rules">posting rules</a>.
+</div>
+</div>
+<div>
+<div class="form-row">
+<div class="
+            	    				col-12
+        		        	">
+
+<div class="form-group">
+
+
+<div id="DANI3feb2425a8b8a99a3f487f1cd3a5b14f" class="js-editor-container">
+<div class="tab-container">
+<ul class="nav nav-tabs" role="tablist">
+<li class="nav-item">
+<a class="js-editor-tab nav-link active" href="#dw-editor-DANI3feb2425a8b8a99a3f487f1cd3a5b14f" data-toggle="tab" role="tab" aria-selected="true">
+<i role="presentation" class="fas fa-fw fa-pencil-alt"></i>
+Edit
+</a>
+</li>
+<li class="nav-item">
+<a class="js-preview-tab nav-link" href="#dw-preview-DANI3feb2425a8b8a99a3f487f1cd3a5b14f" data-toggle="tab" role="tab" aria-selected="false">
+<i role="presentation" class="fas fa-fw fa-glasses"></i>
+Preview
+</a>
+</li>
+</ul>
+</div>
+<div class="tab-content pl-0 pr-0 pb-0">
+
+<div id="dw-editor-DANI3feb2425a8b8a99a3f487f1cd3a5b14f" class="tab-pane active show" role="tabpanel">
+<div class="form-group">
+<label for="js-message-DANI3feb2425a8b8a99a3f487f1cd3a5b14f" class="control-label sr-only">Message</label>
+<div class="btn-toolbar mb-2 d-none d-lg-block" role="toolbar">
+<div class="btn-group mr-2" role="group">
+<a href="#" tabindex="-1" data-toggle="tooltip" class="btn btn-secondary js-bold" title="Bold"><i role="presentation" class="fas fa-bold dw-btn-icon"></i></a>
+<a href="#" tabindex="-1" data-toggle="tooltip" class="btn btn-secondary js-italic" title="Italic"><i role="presentation" class="fas fa-italic dw-btn-icon"></i></a>
+<a href="#" tabindex="-1" data-toggle="tooltip" class="btn btn-secondary js-code" title="Code Block"><i role="presentation" class="fas fa-code dw-btn-icon"></i></a>
+<a href="#" tabindex="-1" data-toggle="tooltip" class="btn btn-secondary js-inline-code" title="Inline Code"><i role="presentation" class="fas fa-terminal dw-btn-icon"></i></a>
+<a href="#" tabindex="-1" data-toggle="tooltip" class="btn btn-secondary js-link" title="Link"><i role="presentation" class="fas fa-link dw-btn-icon"></i></a>
+</div>
+<div class="btn-group mr-2" role="group">
+<a href="#" tabindex="-1" data-toggle="tooltip" class="btn btn-secondary js-quote" title="Quote"><i role="presentation" class="fas fa-quote-right dw-btn-icon"></i></a>
+<a href="#" tabindex="-1" data-toggle="tooltip" class="btn btn-secondary js-heading" title="Heading">H1</a>
+<a href="#" tabindex="-1" data-toggle="tooltip" class="btn btn-secondary js-sub-heading" title="Subheading">H2</a>
+<a href="#" tabindex="-1" data-toggle="tooltip" class="btn btn-secondary js-numbered-list" title="Numbered List"><i role="presentation" class="fas fa-list-ol dw-btn-icon"></i></a>
+<a href="#" tabindex="-1" data-toggle="tooltip" class="btn btn-secondary js-bulleted-list" title="Bulleted List"><i role="presentation" class="fas fa-list-ul dw-btn-icon"></i></a>
+</div>
+ <div class="btn-group" role="group">
+<a href="#" tabindex="-1" data-toggle="tooltip" class="btn btn-secondary js-undo" title="Undo"><i role="presentation" class="fas fa-undo dw-btn-icon"></i></a>
+<a href="#" tabindex="-1" data-toggle="tooltip" class="btn btn-secondary js-redo" title="Redo"><i role="presentation" class="fas fa-redo dw-btn-icon"></i></a>
+<a href="#" tabindex="-1" data-toggle="tooltip" class="btn btn-secondary js-fullscreen" title="Fullscreen"><i role="presentation" class="fas fa-expand-arrows-alt dw-btn-icon"></i></a>
+<a href="/welcome/syntax" data-toggle="tooltip" class="btn btn-secondary" title="Help"><i role="presentation" class="fas fa-question-circle dw-btn-icon"></i></a>
+</div>
+</div>
+<div class="js-errors">
+</div>
+<textarea rows="5" cols="80" name="message" id="js-message-DANI3feb2425a8b8a99a3f487f1cd3a5b14f" class="dw-codemirror form-control"></textarea>
+</div>
+</div>
+
+<div id="dw-preview-DANI3feb2425a8b8a99a3f487f1cd3a5b14f" class="tab-pane" role="tabpanel">
+<div class="dw-replies position-relative">
+<div class="js-show-preview pt-2"></div>
+</div>
+</div>
+</div>
+</div>
+
+<script>
+	loadJQ.addEventListener('load', function () {
+    	$(function() {	
+        
+            if (window.is_desktop)
+            {
+                
+                <!-- CodeMirror -->
+        
+                        
+        			<!-- CM script required -->
+                
+                            
+        				<!-- Require click before loading -->
+                    
+        	            $('#js-message-DANI3feb2425a8b8a99a3f487f1cd3a5b14f').one('click', function() {
+        
+                	            
+                            $.ajax({
+                                url: '//cdn.daniweb.com/js/codemirror.js',
+                                dataType: 'script',
+                                cache: true,
+                                success: function() {            	
+                	
+            	        
+            					$('head').append('<link rel="stylesheet" href="//cdn.daniweb.com/css/editor-v384.css" type="text/css">');
+                            
+                                myEditorDANI3feb2425a8b8a99a3f487f1cd3a5b14f = CodeMirror.fromTextArea(document.getElementById('js-message-DANI3feb2425a8b8a99a3f487f1cd3a5b14f'),
+                                	{
+                                		keyMap: 'daniweb',
+                                		inputStyle: 'contenteditable',
+                                		mode: 'markdown',
+                                		lineWrapping: true,
+                                		tabSize: 4,
+                                		indentUnit: 4,
+                                		matchBrackets: false,
+                                		dragDrop: false
+                                	}
+                                );
+                    
+                                            
+        
+                            					}
+            	        	});
+                                    
+                            	            });
+                	        
+            	        
+            }
+        });
+	});
+</script>
+
+</div>
+</div>
+</div>
+<div class="text-center">
+<input type="hidden" name="article_id" value="354852">
+<button type="submit" name="reply" form="js-reply-form" accesskey="S" class="btn btn-primary btn-xl btn-dw">
+Post Reply
+</button>
+ </div>
+</div>
+</form>
+</div>
+</div>
+</div>
+
+<div id="js-insert-code" class="modal fade colored-header colored-header-primary" tabindex="-1" role="dialog">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header modal-header-colored">
+<h3 class="modal-title">Insert Code Block</h3>
+<button class="close md-close" type="button" data-dismiss="modal" aria-hidden="true">
+<i role="presentation" class="fas fa-times"></i>
+</button>
+</div>
+<div class="modal-body">
+<form>
+<div class="form-group">
+<textarea rows="20" cols="60" class="form-control"></textarea>
+</div>
+<div class="text-center">
+<button class="btn btn-space btn-primary btn-dw" type="submit">Insert Code Block</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<script>
+loadJQ.addEventListener('load', function () {
+    $(document).ready(function() {
+    	if (window.innerWidth < 992)
+    	{
+    		$('#dw-reply-body').collapse('show');
+    	}
+    });
+});
+</script>
+<div class="d-none d-md-block dw-inject-bsa dw-protect-cls text-center">
+
+<div id="div-gpt-ad-1321481451196-4" class="container-ArticleLeaderboard">
+<script>
+                        if (window.innerWidth >= 768) { googletag.cmd.push(function() { googletag.display('div-gpt-ad-1321481451196-4'); }); }
+                		</script>
+</div>
+
+</div>
+
+<div class="modal fade colored-header colored-header-primary" id="md-image" tabindex="-1" role="dialog">
+<div class="modal-dialog modal-lg"></div>
+</div>
+
+<div class="modal fade colored-header colored-header-primary" id="md-share" tabindex="-1" role="dialog">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header modal-header-colored">
+<h3 class="modal-title">Share Post</h3>
+<button class="close md-close" type="button" data-dismiss="modal" aria-hidden="true">
+<i role="presentation" class="fas fa-times"></i>
+</button>
+</div>
+<div class="modal-body">
+<div class="form-group">
+<label>Permanent Link</label>
+<div class="input-group input-group-sm">
+<div class="input-group-prepend">
+<div class="input-group-text"><i role="presentation" class="fas fa-link dw-btn-icon"></i></div>
+</div>
+<input type="text" class="form-control" value="https://www.daniweb.com/programming/software-development/threads/354852/coding-for-next-and-previous-button-in-vb-net-2008">
+</div>
+</div>
+<div class="dw-social-icons" data-id="354852">
+<div class="dw-social btn-group btn-group-sm btn-space" data-platform="facebook">
+<button title="Facebook" class="btn btn-color btn-social btn-facebook" type="button" data-url="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.daniweb.com%2Fprogramming%2Fsoftware-development%2Fthreads%2F354852%2Fcoding-for-next-and-previous-button-in-vb-net-2008">
+<i role="presentation" class="icon fab fa-facebook-f dw-btn-icon"></i>
+<span class="sr-only">Facebook</span>
+</button>
+</div>
+<div class="dw-social btn-group btn-group-sm btn-space" data-platform="twitter">
+<button title="Twitter" class="btn btn-color btn-social btn-twitter" type="button" data-url="https://twitter.com/intent/tweet?text=coding+for+next+and+previous+button+in+vb.net+2008&amp;via=daniweb&amp;url=https%3A%2F%2Fwww.daniweb.com%2Fprogramming%2Fsoftware-development%2Fthreads%2F354852%2Fcoding-for-next-and-previous-button-in-vb-net-2008">
+<i role="presentation" class="icon fab fa-twitter dw-btn-icon"></i>
+<span class="sr-only">Twitter</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+<div id="js-no-cache"></div>
+<script>
+        loadJQ.addEventListener('load', function () {
+            $(document).ready(function() {
+            	$.getJSON('/articles/ajax/bypass.json', { article_id: 354852 }, function(html) {
+                	$('#js-no-cache').html(html.snippet);
+                });
+        	});
+        });
+        </script>
+</body>
+</html>

@@ -1,0 +1,1800 @@
+
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang='en-US'>
+<head id="Head1"><link href="https://i1.social.s-msft.com/Forums/RequestReduceContent/5b7bd931663b433d6d8f3a1103ae947a-7acb2b1bb9b4e7145f96eb5762700a5f-RequestReducedStyle.css" rel="Stylesheet" type="text/css" />
+
+    
+        <link rel="shortcut icon" href="https://i1.social.s-msft.com/Forums/GlobalResources/images/Msdn/favicon.ico" type="image/x-icon" /> 
+    <meta name="CommunityInfo" content=" B=Msdn;A=Forums;L=en-US;" /><meta name="ms.puidhash" content="" />
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.11.0.min.js" type="text/javascript" language="javascript"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.migrate/jquery-migrate-1.2.1.min.js" type="text/javascript" language="javascript"></script>
+    <script src="https://i1.social.s-msft.com/Forums/RequestReduceContent/dcda799c173f6ccc0378626f201a4ad8-6584225de39c1527dd5dd7bce11792ab-RequestReducedScript.js" type="text/javascript" ></script>    
+    <title>
+    VB.Net  How to create  &quot;next&quot; and &quot;previous&quot; buttons to flip between pictures in a folder ?
+</title>
+	
+            <!--[if IE 6]>
+    <link type="text/css" rel="Stylesheet" href="https://i1.social.s-msft.com/Forums/resources/styles/IE6Core.css?cver=0001" />
+    <![endif]-->
+        <script type="text/javascript">
+        //<![CDATA[
+        var fms_site_culture = 'en-US'; var fms_site_lcid = '1033';
+        //]]>
+    </script>
+    
+    
+    <script src="https://i1.social.s-msft.com/Forums/RequestReduceContent/89f39bda2d81cb6234a59f4a402b8042-ad5e01ec71ab4bd4223a53296509a1ba-RequestReducedScript.js" type="text/javascript" ></script>    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.4/jquery-ui.js"></script>
+    <script>
+        if (top.location.href != self.location.href)
+            top.location.href = self.location.href;
+    </script>
+    <script src="https://i1.social.s-msft.com/Forums/RequestReduceContent/302320f2d6adcc30d76cec0a10bc65d2-764641120452f582c83dce86b5200c2e-RequestReducedScript.js" type="text/javascript" ></script>    
+    
+<script type="text/javascript">
+    $(document).ready(function () {
+        prettyPrint();
+    });
+</script>
+    <link rel="alternate" type="application/rss+xml" title="VB.Net  How to create  &quot;next&quot; and &quot;previous&quot; buttons to flip between pictures in a folder ?" href="https://social.msdn.microsoft.com/Forums/en-US/vbgeneral/thread/aded22de-3711-4972-bb63-c7bc51181d1e?outputAs=rss" />
+
+        <meta name="Search.MSForums.Iroot" content="" />
+        <meta name="Search.MSForums.CategoryID" content="8592413b-911f-400f-a94e-bd9e619ff91e" />
+        <meta name="Search.MSForums.CategoryName" content="archived" />
+    
+            <link rel="canonical" href="https://social.msdn.microsoft.com/Forums/vstudio/en-US/aded22de-3711-4972-bb63-c7bc51181d1e/vbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in?forum=vbgeneral" />
+    
+    
+
+<!--
+Third party scripts and code linked to or referenced from this website are licensed to you by the parties that own such code, not by Microsoft.  See ASP.NET Ajax CDN Terms of Use â€“ http://www.asp.net/ajaxlibrary/CDN.ashx.
+-->
+    <script type="text/javascript" >
+        function addAsyncScript(src) {
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.async = true;
+            script.src = src;
+            return script;
+        };
+    </script>
+    
+        <script type="text/javascript" language="javascript">
+            jQuery(window).load(function () {
+                window.appInsights = {
+                    queue: [],
+                    start: function (n) {
+                        function r(n, t) {
+                            n[t] = function () {
+                                var i = arguments;
+                                n.queue.push(function () { n[t].apply(n, i); });
+                            };
+                        }
+                        var t, i;
+                        this.applicationInsightsId = n;
+                        this.accountId = null;
+                        this.appUserId = null;
+                        r(this, "logEvent");
+                        r(this, "logPageView");
+                    }
+                };
+                window.appInsights.start("e070756f-50f9-4b2d-88ac-4bc11e195f9b");
+                window.appInsights.logPageView();
+            });
+        </script>
+    </head>
+<body class="Chrome en-us Forums " dir= "ltr">
+    <div data-chameleon-template="megablade" ></div>
+    
+            
+        <div class="migrateAnnouncement">
+            <div class="announcementContainer">
+            <div class="announcementContent" role="alert">
+                
+                <p>This forum has migrated to <a class="QAlink" href="https://docs.microsoft.com/answers/products/?WT.mc_id=msdnredirect-web-msdn">Microsoft Q&amp;A</a>.                
+                    <em>Visit</em> <a class="QAlink" href="https://docs.microsoft.com/answers/products/?WT.mc_id=msdnredirect-web-msdn">Microsoft Q&amp;A</a> <em>to post new questions.</em></p>
+                
+                <a class="learnMore" aria-label="learn more about microsoft Q&A" href="https://aka.ms/msftqalearnmore" >Learn More </a>
+            </div>
+            <div class="clear"></div>
+            </div>
+        </div>
+    
+    <div id="BodyBackground" class="ltr">
+        <div id="JelloSizer">    
+            <div id="JelloExpander">
+                <div id="JelloWrapper">
+                    <div class="Clear"> </div>
+                    
+                   
+
+<div data-chameleon-template="epxheader">
+
+
+<div id="ux-banner" xmlns="http://www.w3.org/1999/xhtml">
+    <div id="cookie-banner"></div>
+</div>
+<header class="ux-header" xmlns="http://www.w3.org/1999/xhtml">
+    <div class="header-top-bar">
+        <a href="https://msdn.microsoft.com/vstudio" title="Visual Studio Home" class="header-top-bar-brand-logo logo-hc">
+            <div class="clip122x20">
+                <img alt="Visual studio home link" src="https://msdn-uxservice-prod-wus.azurewebsites.net/uxresources/Areas/Epx/Themes/VStudio/Content/sprite.min.png" />
+            </div>
+        </a>
+        <ul class="header-top-bar-links" id="ux-nav-user">
+            <li class="header-top-bar-search-box">
+                <form name="HeaderSearchForm" id="HeaderSearchForm" method="get" action="https://social.msdn.microsoft.com/search/en-us/">
+                    <div id="searchTextContainer">
+                        <input type="text" id="HeaderSearchTextBox" name="query" title="Search Visual Studio" class="TextBoxSearch" />
+                        <input type="hidden" id="RefinementId" name="refinement" title="246" value="246" />
+                    </div>
+                    <button type="submit" id="HeaderSearchButton" title="Search Visual Studio" class="header-search-button">
+                        <div class="clip14x14">
+                            <img alt="search finder" class="header-search-button-img" src="https://msdn-uxservice-prod-wus.azurewebsites.net/uxresources/Areas/Epx/Themes/VStudio/Content/sprite.min.png" />
+                        </div>
+                    </button>
+                </form>
+            </li>
+            <li>
+                <a class="createProfileLink" href="" title="">
+                    
+                </a>
+            </li>
+            <li class="last">
+                <a class="scarabLink" id="idPPScarab" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral" title="Sign in">
+                    <span id="idPPScarabSIT">Sign in</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="header-nav-container">
+        <nav class="header-nav">
+            
+    <ul class="header-nav-pri">
+          <li><a href="http://visualstudiogallery.msdn.microsoft.com/" title="Gallery">Gallery</a></li>
+          <li><a href="https://msdn.microsoft.com/library/vstudio" title="MSDN Library">MSDN Library</a></li>
+          <li><a href="http://social.msdn.microsoft.com/forums/vstudio/en-us/home?category=visualstudio%2cvslanguages%2cvstfs%2cnetdevelopment%2cvsarch" title="Forums">Forums</a></li>
+
+    </ul>
+  
+  
+        </nav>
+        <div class="header-nav-trial">
+            <a href="http://go.microsoft.com/fwlink/?LinkId=309297&amp;clcid=0x409&amp;slcid=0x409" title="Get started for free" class="trialanchor">
+                <span class="trialtext">Get started for free</span>
+                <span class="trialimage"></span>
+            </a>
+        </div>
+    </div>
+</header>
+<script type="text/javascript" src="https://msdn-uxservice-prod-wus.azurewebsites.net/uxresources/Areas/Epx/Themes/VStudio/Content/search.2.js" xmlns="http://www.w3.org/1999/xhtml"></script>
+<script type="text/javascript" src="https://consentdeliveryfd.azurefd.net/mscc/lib/v2/wcp-consent.js"></script>
+<script>
+
+    $(document).ready(function () {
+        window.WcpConsent && WcpConsent.init("en-us", "cookie-banner", function (err, _siteConsent) {
+            if (err != undefined) {
+                return error;
+            } else {
+                siteConsent = _siteConsent;
+                if (_siteConsent.isConsentRequired) {
+                    $(".footerSubLinksContainer ul.footerSubLinks li.subFooterLink:last ").after("<li class='subFooterLink'><a href ='javascript:void(0);' onclick='manageConsent()'>Manage cookies</a></li>");
+
+                }
+            }
+        });
+    });
+
+    $('#HeaderSearchButton').click(function (e) {
+        e.preventDefault();
+        var url = "https://docs.microsoft.com/en-us/search/?terms=";
+        var searchBoxElement = $('#HeaderSearchTextBox');
+        if (!searchBoxElement || !searchBoxElement.val() || searchBoxElement.val().length < 1) {
+            return;
+        }
+        window.location = url + searchBoxElement.val();
+    });
+
+    $('#HeaderSearchTextBox').keydown(function (e) {
+        if (e.keyCode === 13) {
+            $('#HeaderSearchButton').click();
+            return false;
+        }
+    });
+
+    function manageConsent() {
+        if (siteConsent.isConsentRequired) {
+            siteConsent.manageConsent();
+        }
+    }
+
+    var excludedLocales = ["en-au", "en-gb"];
+    var excludedVsLocales = ["ar-sa", "bg-bg", "da-dk", "de-at", "el-gr", "fi-fi", "fr-be", "fr-ca", "fr-ch", "he-il", "id-id", "kk-kz", "nb-no", "nl-be", "ro-ro", "sk-sk", "sv-se", "uk-ua"];
+    var excludedSubPaths = ["samples", "search", "visualstudio"];
+
+    function isPartsInArray(path, array) {
+        for (var i in array) {
+            if (path.indexOf(array[i]) >= 0) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    function highlightCurrent() {
+        var path = window.location.pathname.toLowerCase();
+        if (path.indexOf("visualstudio") >= 0 && !isPartsInArray(path, excludedVsLocales)) {
+            $("ul.header-nav-pri > li:nth-last-child(3)").addClass("header-nav-selected");
+        }
+
+        if (isPartsInArray(path, excludedSubPaths) && isPartsInArray(path, excludedLocales)) {
+            $("ul.header-nav-pri > li:nth-last-child(1)").removeClass("header-nav-selected");
+        }
+    };
+
+    highlightCurrent();
+</script></div>
+<div data-chameleon-template="header"></div>
+                    
+                    
+                    <div class="Clear"> </div>
+                          
+                    <div class="topleftcorner"></div>           
+                    <div class="toprightcorner"></div>                                
+                    <div class="alley"> <!-- Left Side -->
+                        <div class="wrapper"> <!-- Right Side -->
+                            <div class="inner">  
+                            
+                                                 
+                                <div class="Clear"></div>   
+
+
+                                
+                                
+                                
+                                
+                                <div id="MainContent" class="Msdn">
+                                    
+    
+
+    <div id="contentWrapper" class="contentWrapperFull">            
+        <div id="content" class="contentFull">
+            <div id="forumsMessage"></div>
+            
+    <input type="hidden" name="IsTrusted" id="trustedU" value="False" />
+<input type="hidden" name="IsTrustedCheckEnabled" id="isTrustedCheckEnabled" value="True" />
+<input type="hidden" name="isSpamCheckEnabled" id="isSpamCheckEnabled" value="False" />
+    <form id="__AjaxAntiForgeryForm" action="#" method="post"><input name="__RequestVerificationToken" type="hidden" value="Zw5sHeSx5AinvRv-t4R6uTfxyXrc6XMdfuNtGLWIblQp0B0vntfiqayCYW6xDs12dzAZdQvdWchDqmx0_a8Za8iUlorOSfxcE9ykMBvdMlw1" /></form>
+    
+     <div id="msdn-technet-en-thread">
+          <div id="topbar">
+    <div id="quickActions">
+        <div class="section">
+    <div id="askaquestion">
+        <a data-askurlbase="https://social.msdn.microsoft.com/Forums/vstudio/en-US/newthread" class="btn askQuestionLink" title="Ask a question" href="/Forums/vstudio/en-US/newthread?category=archived&amp;forum=vbgeneral" name="ask" rel="nofollow">
+            Ask a question
+        </a>
+    </div>
+
+        </div>
+        <div class="section">
+<div id="quickLinks" class="dropdown" tabindex="0" aria-controls="quickAccessPopup" aria-label="Quick access" role="combobox" aria-expanded="false">
+    <div id="quickLinksText">
+        
+        <span role="textbox" aria-label="Quick access">Quick access</span>
+    </div>
+    <div id="quickLinksArrow" class="arrowcontainer">
+        <a class="arrowdown expanded"></a>
+    </div>
+    <ul class="popup" id="quickAccessPopup" role="listbox">
+                <li id="Home" role="option"><a href="https://social.msdn.microsoft.com/Forums/vstudio/en-US/home">Forums home</a></li>
+                <li id="AllUsers" role="option"><a href="https://social.msdn.microsoft.com/Forums/vstudio/en-US/browseusers">Browse forums users</a></li>
+                <li id="Faq" role="option"><a href="http://social.technet.microsoft.com/wiki/contents/articles/7359.forums-help-faq.aspx">FAQ</a></li>
+    </ul>
+    <div class="clear"></div>
+</div>
+        </div>
+    </div>
+    <div id="searchActionsContainer">
+        <div id="searchActions">
+            <div id="topBarImportantInfoContainer">
+<div id="relatedThreadsLinkContainer">
+    <a id="relatedThreadsLink" href="https://social.msdn.microsoft.com/Forums/vstudio/en-US/home?searchTerm=VB.Net%20%20How%20to%20create%20%20%26quot%3Bnext%26quot%3B%20and%20%26quot%3Bprevious%26quot%3B%20buttons%20to%20flip%20between%20pictures%20in%20a%20folder%20%3F" value="related threads link">Search related threads</a>
+</div>
+
+            </div>
+                        
+            <div id="threadsearchbarContainer">
+<form action="/Forums/vstudio/en-US/home" data-clientrefresh="true" data-refreshcontent="Search" id="homesearchform" method="get">                                <input name="category" type="hidden" value="">
+                                <input name="forum" type="hidden" value="">
+                                <input name="filter" type="hidden" value="">
+                                <input name="sort" type="hidden" value="relevancedesc">
+                                <input name="brandIgnore" type="hidden" value="true">
+
+
+
+<div class="searchbar">
+    <table class="searchboxinnercontainer">
+        <tr>
+            <td class="searchBoxTd">
+                <input id="searchbox" tabindex="0" type="text" name="searchTerm" value="" />
+            </td>
+            <td class="imageWidth">
+                <input id="searchimage" type="submit" value="" />
+            </td>
+        </tr>
+    </table>
+</div>   </form>
+            </div>
+        </div>
+        
+        
+        
+    </div>
+</div>
+
+
+    <script>
+        $(function() {
+            Forums.Homepage.wireTopBar('Search forum questions');
+        });
+    </script>
+
+    
+
+<div id="forumDetailsTemplate">
+        <h3 class="header">
+            
+            <a href="javascript:void(0);" rel="nofollow" class="rssLink" aria-label="RRS feed"><img class="icon rss" alt="RRS feed" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001"></a>
+        </h3>
+        <div>
+            <ul class="manageForumSection">
+                
+                <li><a href="javascript:void(0);" rel="nofollow" class="manageForumLink" aria-label="Manage forum" tabindex="-1"></a></li>
+                <li><a href="javascript:void(0);" rel="nofollow" class="manageRolesLink" aria-label="Manage roles" tabindex="-1"></a></li>
+                <li><a href="javascript:void(0);" rel="nofollow" class="addAnnouncementLink" aria-label="Add announcement" tabindex="-1"></a></li>
+                <li><a class="addRemoveForum" title="Remove From My Forums"  href="javascript:void(0);" rel="nofollow" tabindex="-1">Remove From My Forums</a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    <div class="content"></div>
+    <div class="announcements"><span></span></div>
+</div>
+        <div id="threadPageSidebarContainer" class="sideBarContainer">
+            <div id="sidebar">
+    <section>
+        <h3>Answered by:</h3>
+        <div id="userCard" class="section">
+            <div class="unified-baseball-card"
+                 data-profile-usercard-customlink='{"href":"https://social.msdn.microsoft.com/Forums/vstudio/en-US/user/threads?user=Acamar", "text":"Acamar&#39;s threads"}'
+                 data-profile-userid="1babf25f-6788-4eca-8385-598c8072e414">
+            </div>
+        </div>
+    </section>
+</div>
+        </div>
+        <div id="threadPageContentContainer">
+            <a id="toggleSidebar" href="javascript:void(0)" role="button" aria-label="Expand or Collapse side Navigation" class="toggleOpen" data-state="1" aria-expanded="true"></a>
+            <section>
+                <div id="threadPageContainer" class="section" >
+                    
+
+             
+
+
+<h1>
+    <div class="threadIcon icon  locked" title="Locked">
+        <img class="threadIcon icon  locked" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" alt=" locked" />
+    </div>
+    <span name="subject">VB.Net  How to create  &quot;next&quot; and &quot;previous&quot; buttons to flip between pictures in a folder ?</span>
+                         
+        <a id="rssFeed" href="https://social.msdn.microsoft.com/Forums/en-US/vbgeneral/thread/aded22de-3711-4972-bb63-c7bc51181d1e?outputAs=rss" rel="nofollow" aria-label="RRS feed"><img src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" class="icon rss" alt="RRS feed" /></a>
+</h1>   
+    
+    <div class="breadcrumb">
+
+
+        
+                <div itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="EyebrowElement">
+                    
+                    <a href="https://social.msdn.microsoft.com/Forums/vstudio/en-US/home?category=archived" itemprop="url">
+                        <span itemprop="title">Archived Forums</span>
+                    </a>
+                </div>
+            <span class="separator">&nbsp;&gt;&nbsp;</span>
+                <div itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="EyebrowElement forumBreadcrumb" data-forumdetailsurl="/Forums/api/category/getsingleforumdetails?forum=vbgeneral">
+                    
+                    <a href="https://social.msdn.microsoft.com/Forums/vstudio/en-US/home?forum=vbgeneral" itemprop="url" class="forumBreadcrumbLink">
+                        <span itemprop="title">Visual Basic</span>
+
+                    </a>
+                    <div class="forumDetailsTip"></div>
+                </div>
+        <div class="clear"></div>
+    </div>
+
+
+
+    
+    <ul id="rootMessage" class="message root">
+
+        
+        <li><h3>Question</h3></li>
+                <li id="aded22de-3711-4972-bb63-c7bc51181d1e" class="message  root">
+        <div class="messageContentContainer">
+        
+        
+            <div class="messageSidebar">
+
+                <div class="iconWrapper">
+                    <div class="status messageIcon  question root">
+                        <img class="icon  question root" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" alt="Question" />
+                    </div>
+                </div>
+                <div class="votingouterbox">            <div class="voting">
+                <a class="voteuphreflink" name="voteup" title="Vote as helpful" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired" role="button">
+                    <img class="icon voteup" alt="Sign in to vote" title="Sign in to vote" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" />
+                    <div class="votenumber" style="display: block;">0</div>
+                </a>
+
+            </div>
+            <div class="votinglabel">
+                <span class="votinglabel type">
+                            <a title="Sign in to vote" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired">Sign in to vote</a>
+                </span>
+            </div>
+</div>
+            </div>
+        
+            <div class="messageContent">
+                <div class="container">
+                    <div class="body">How to create &quot;next&quot; and &quot;previous&quot; buttons to flip between pictures in a folder ?</div>
+                        <input type="hidden" id="aded22de-3711-4972-bb63-c7bc51181d1e_attachments" value="" />
+
+                </div>
+                
+                <div class="messageFooter">
+                     <div class="actions">
+                        <div class="date">Sunday, December 4, 2011 4:36 PM</div>
+                        <div class="menu message">
+                            
+                            
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="userInfo">
+                        <div class="unified-baseball-card-mini" data-profile-userid="675af5ae-e2db-4edd-aca5-10b827f6dfcd" data-profile-usercard-customlink='{"href":"https://social.msdn.microsoft.com/Forums/vstudio/en-US/user/threads?user=NKN95", "text":"NKN95&#39;s threads"}'>
+                            <div class="profile-mini-content">
+                            </div>
+                        </div>
+
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </li> 
+
+    </ul>
+
+
+        <div id="answers" class="answers">
+            <h3>
+                Answers
+            </h3>
+            <ul id="answersList" class="message">
+        <li id="4ea50b57-835a-4329-b55d-754013048124-isAnswer" class="message  answer">
+        <div class="messageContentContainer">
+        
+        
+            <div class="messageSidebar">
+
+                <div class="iconWrapper">
+                    <div class="status messageIcon  question answered">
+                        <img class="icon  question answered" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" alt="Question" />
+                    </div>
+                </div>
+                <div class="votingouterbox">            <div class="voting">
+                <a class="voteuphreflink" name="voteup" title="Vote as helpful" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired" role="button">
+                    <img class="icon voteup" alt="Sign in to vote" title="Sign in to vote" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" />
+                    <div class="votenumber" style="display: block;">1</div>
+                </a>
+
+            </div>
+            <div class="votinglabel">
+                <span class="votinglabel type">
+                            <a title="Sign in to vote" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired">Sign in to vote</a>
+                </span>
+            </div>
+</div>
+            </div>
+        
+            <div class="messageContent">
+                <div class="container">
+                    <div class="body"><blockquote>
+<p>What I meant was, when I load an image to a picturebox using the openfiledialog I want to be able to go&nbsp;through all images in the&nbsp;&nbsp;folder containing this image using next and previous buttons.</p>
+</blockquote>
+<p>That would be difficult using the OpenFileDialog, as that dialog provides the apllication with a selected file.&nbsp; What you want is a selected folder.</p>
+<p>You would use the OpenFileDialog where you wanted to the user to have the option of selecting&nbsp;several files and you were going to use those files as your list of images to display.</p>
+<p>If you use the FolderBrowser dialog instead of the OpenFileDialog then you can get all the image files in the folder into a list and display them on demand. For this example, you need to add checking for a folder with no image files to display.</p>
+<p><span style="font-family:Courier new"><span style="color:#0000ff">Public</span><span>&nbsp;</span><span style="color:#0000ff">Class</span><span>&nbsp;Form1<br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Dim</span><span>&nbsp;Files()&nbsp;</span><span style="color:#0000ff">As</span><span>&nbsp;</span><span style="color:#0000ff">String<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Dim</span><span>&nbsp;Pointer&nbsp;</span><span style="color:#0000ff">As</span><span>&nbsp;</span><span style="color:#0000ff">Integer<br/>
+<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Private</span><span>&nbsp;</span><span style="color:#0000ff">Sub</span><span>&nbsp;Button1_Click(</span><span style="color:#0000ff">ByVal</span><span>&nbsp;sender&nbsp;</span><span style="color:#0000ff">As</span><span>&nbsp;System.Object,&nbsp;</span><span style="color:#0000ff">ByVal</span><span>&nbsp;e&nbsp;</span><span style="color:#0000ff">As</span><span>&nbsp;System.EventArgs)&nbsp;</span><span style="color:#0000ff">Handles</span><span>&nbsp;Button1.Click<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">If</span><span>&nbsp;FolderBrowserDialog1.ShowDialog&nbsp;&lt;&gt;&nbsp;Windows.Forms.DialogResult.Cancel&nbsp;</span><span style="color:#0000ff">Then<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Files&nbsp;=&nbsp;IO.Directory.GetFiles(FolderBrowserDialog1.SelectedPath)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">End</span><span>&nbsp;</span><span style="color:#0000ff">If<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pointer&nbsp;=&nbsp;-1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">End</span><span>&nbsp;</span><span style="color:#0000ff">Sub<br/>
+<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Private</span><span>&nbsp;</span><span style="color:#0000ff">Sub</span><span>&nbsp;Button2_Click(</span><span style="color:#0000ff">ByVal</span><span>&nbsp;sender&nbsp;</span><span style="color:#0000ff">As</span><span>&nbsp;System.Object,&nbsp;</span><span style="color:#0000ff">ByVal</span><span>&nbsp;e&nbsp;</span><span style="color:#0000ff">As</span><span>&nbsp;System.EventArgs)&nbsp;</span><span style="color:#0000ff">Handles</span><span>&nbsp;Button2.Click<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Do<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pointer&nbsp;=&nbsp;(Pointer&nbsp;&#43;&nbsp;1)&nbsp;</span><span style="color:#0000ff">Mod</span><span>&nbsp;Files.Count<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Loop</span><span>&nbsp;</span><span style="color:#0000ff">Until</span><span>&nbsp;checkimagetype(Files(Pointer))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Try<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PictureBox1.Image&nbsp;=&nbsp;Image.FromFile(Files(Pointer))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Catch</span><span>&nbsp;ex&nbsp;</span><span style="color:#0000ff">As</span><span>&nbsp;Exception<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MessageBox.Show(ex.Message&nbsp;&amp;&nbsp;</span><span style="color:#a31515">&quot;&nbsp;&quot;</span><span>&nbsp;&amp;&nbsp;Files(Pointer),&nbsp;</span><span style="color:#0000ff">My</span><span>.Application.Info.Title,&nbsp;_<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MessageBoxButtons.OK,&nbsp;MessageBoxIcon.Error)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">End</span><span>&nbsp;</span><span style="color:#0000ff">Try<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">End</span><span>&nbsp;</span><span style="color:#0000ff">Sub<br/>
+<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Private</span><span>&nbsp;</span><span style="color:#0000ff">Sub</span><span>&nbsp;Button3_Click(</span><span style="color:#0000ff">ByVal</span><span>&nbsp;sender&nbsp;</span><span style="color:#0000ff">As</span><span>&nbsp;System.Object,&nbsp;</span><span style="color:#0000ff">ByVal</span><span>&nbsp;e&nbsp;</span><span style="color:#0000ff">As</span><span>&nbsp;System.EventArgs)&nbsp;</span><span style="color:#0000ff">Handles</span><span>&nbsp;Button3.Click<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Do<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pointer&nbsp;-=&nbsp;1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">If</span><span>&nbsp;Pointer&nbsp;&lt;&nbsp;0&nbsp;</span><span style="color:#0000ff">Then</span><span>&nbsp;Pointer&nbsp;=&nbsp;Files.Count&nbsp;-&nbsp;1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Loop</span><span>&nbsp;</span><span style="color:#0000ff">Until</span><span>&nbsp;CheckImageType(Files(Pointer))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Try<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PictureBox1.Image&nbsp;=&nbsp;Image.FromFile(Files(Pointer))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Catch</span><span>&nbsp;ex&nbsp;</span><span style="color:#0000ff">As</span><span>&nbsp;Exception<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MessageBox.Show(ex.Message&nbsp;&amp;&nbsp;</span><span style="color:#a31515">&quot;&nbsp;&quot;</span><span>&nbsp;&amp;&nbsp;Files(Pointer),&nbsp;</span><span style="color:#0000ff">My</span><span>.Application.Info.Title,&nbsp;_<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MessageBoxButtons.OK,&nbsp;MessageBoxIcon.Error)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">End</span><span>&nbsp;</span><span style="color:#0000ff">Try<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">End</span><span>&nbsp;</span><span style="color:#0000ff">Sub<br/>
+<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Private</span><span>&nbsp;</span><span style="color:#0000ff">Function</span><span>&nbsp;CheckImageType(</span><span style="color:#0000ff">ByVal</span><span>&nbsp;F&nbsp;</span><span style="color:#0000ff">As</span><span>&nbsp;</span><span style="color:#0000ff">String</span><span>)&nbsp;</span><span style="color:#0000ff">As</span><span>&nbsp;</span><span style="color:#0000ff">Boolean<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Static</span><span>&nbsp;Ext()&nbsp;</span><span style="color:#0000ff">As</span><span>&nbsp;</span><span style="color:#0000ff">String</span><span>&nbsp;=&nbsp;{</span><span style="color:#a31515">&quot;.jpg&quot;</span><span>,&nbsp;</span><span style="color:#a31515">&quot;.jpeg&quot;</span><span>,&nbsp;</span><span style="color:#a31515">&quot;.gif&quot;</span><span>,&nbsp;</span><span style="color:#a31515">&quot;.bmp&quot;</span><span>,&nbsp;</span><span style="color:#a31515">&quot;.png&quot;</span><span>,&nbsp;</span><span style="color:#a31515">&quot;ico&quot;</span><span>}<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">For</span><span>&nbsp;</span><span style="color:#0000ff">Each</span><span>&nbsp;S&nbsp;</span><span style="color:#0000ff">As</span><span>&nbsp;</span><span style="color:#0000ff">String</span><span>&nbsp;</span><span style="color:#0000ff">In</span><span>&nbsp;Ext<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">If</span><span>&nbsp;F.ToLower.EndsWith(S)&nbsp;</span><span style="color:#0000ff">Then</span><span>&nbsp;</span><span style="color:#0000ff">Return</span><span>&nbsp;</span><span style="color:#0000ff">True<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Next<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Return</span><span>&nbsp;</span><span style="color:#0000ff">False<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">End</span><span>&nbsp;</span><span style="color:#0000ff">Function<br/>
+<br/>
+End</span><span>&nbsp;</span><span style="color:#0000ff">Class</span></span></p></div>
+                        <input type="hidden" id="4ea50b57-835a-4329-b55d-754013048124_attachments-isAnswer" value="" />
+
+                </div>
+                        <div>
+            <ul class="history">
+                    <li>
+                        <span class="type">Marked as answer by</span>
+                            <a class="author" href="https://social.msdn.microsoft.com:443/profile/nkn95/?type=forum&amp;referrer=https://social.msdn.microsoft.com/Forums/vstudio/en-US/aded22de-3711-4972-bb63-c7bc51181d1e/vbnet-how-to-create-next-and-previous-buttons-to-flip-between-pictures-in-a-folder-" rel="nofollow" title="About NKN95"><span>NKN95</span><abbr class="affil"></abbr></a>
+                        <span class="date">Wednesday, December 7, 2011 11:03 AM</span>
+                    </li>
+            </ul>
+        </div>
+
+                <div class="messageFooter">
+                     <div class="actions">
+                        <div class="date">Tuesday, December 6, 2011 10:19 PM</div>
+                        <div class="menu message">
+                            
+                            
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="userInfo">
+                        <div class="unified-baseball-card-mini" data-profile-userid="1babf25f-6788-4eca-8385-598c8072e414" data-profile-usercard-customlink='{"href":"https://social.msdn.microsoft.com/Forums/vstudio/en-US/user/threads?user=Acamar", "text":"Acamar&#39;s threads"}'>
+                            <div class="profile-mini-content">
+                            </div>
+                        </div>
+
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </li> 
+                        
+            </ul>
+        </div>
+
+      <div id="allReplies" class="replies">
+            <h3>
+                All replies
+            </h3>
+
+
+
+
+
+
+    <ul class="message">
+        <li id="cbda3b2d-b9be-44ff-993e-77357ee59fe9" class="message ">
+        <div class="messageContentContainer">
+        
+        
+            <div class="messageSidebar">
+
+                <div class="iconWrapper">
+                    <div class="status messageIcon  question reply">
+                        <img class="icon  question reply" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" alt="Question" />
+                    </div>
+                </div>
+                <div class="votingouterbox">            <div class="voting">
+                <a class="voteuphreflink" name="voteup" title="Vote as helpful" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired" role="button">
+                    <img class="icon voteup" alt="Sign in to vote" title="Sign in to vote" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" />
+                    <div class="votenumber" style="display: block;">0</div>
+                </a>
+
+            </div>
+            <div class="votinglabel">
+                <span class="votinglabel type">
+                            <a title="Sign in to vote" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired">Sign in to vote</a>
+                </span>
+            </div>
+</div>
+            </div>
+        
+            <div class="messageContent">
+                <div class="container">
+                    <div class="body">Start a new Windows Forms application and drag a button from the toolbox&nbsp;to your preferred position on&nbsp; the form.&nbsp; In the properties window for the button enter &quot;next&quot; in the Text property.&nbsp; Do the same for another button with Text
+ property &quot;previous&quot;.&nbsp; Double-click on each button to get the Button.Click event.&nbsp; Enter appropriate code to do what you want when a button is clicked.</div>
+                        <input type="hidden" id="cbda3b2d-b9be-44ff-993e-77357ee59fe9_attachments" value="" />
+
+                </div>
+                
+                <div class="messageFooter">
+                     <div class="actions">
+                        <div class="date">Sunday, December 4, 2011 4:43 PM</div>
+                        <div class="menu message">
+                            
+                            
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="userInfo">
+                        <div class="unified-baseball-card-mini" data-profile-userid="f50d3273-443b-4139-b481-93e51be91ee6" data-profile-usercard-customlink='{"href":"https://social.msdn.microsoft.com/Forums/vstudio/en-US/user/threads?user=JohnWein", "text":"JohnWein&#39;s threads"}'>
+                            <div class="profile-mini-content">
+                            </div>
+                        </div>
+
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </li> 
+        <li id="18f1efa0-0433-4980-88b8-3b22a260e8db" class="message ">
+        <div class="messageContentContainer">
+        
+        
+            <div class="messageSidebar">
+
+                <div class="iconWrapper">
+                    <div class="status messageIcon  question reply">
+                        <img class="icon  question reply" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" alt="Question" />
+                    </div>
+                </div>
+                <div class="votingouterbox">            <div class="voting">
+                <a class="voteuphreflink" name="voteup" title="Vote as helpful" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired" role="button">
+                    <img class="icon voteup" alt="Sign in to vote" title="Sign in to vote" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" />
+                    <div class="votenumber" style="display: block;">0</div>
+                </a>
+
+            </div>
+            <div class="votinglabel">
+                <span class="votinglabel type">
+                            <a title="Sign in to vote" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired">Sign in to vote</a>
+                </span>
+            </div>
+</div>
+            </div>
+        
+            <div class="messageContent">
+                <div class="container">
+                    <div class="body">What's the appropriate code ?</div>
+                        <input type="hidden" id="18f1efa0-0433-4980-88b8-3b22a260e8db_attachments" value="" />
+
+                </div>
+                
+                <div class="messageFooter">
+                     <div class="actions">
+                        <div class="date">Sunday, December 4, 2011 4:46 PM</div>
+                        <div class="menu message">
+                            
+                            
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="userInfo">
+                        <div class="unified-baseball-card-mini" data-profile-userid="675af5ae-e2db-4edd-aca5-10b827f6dfcd" data-profile-usercard-customlink='{"href":"https://social.msdn.microsoft.com/Forums/vstudio/en-US/user/threads?user=NKN95", "text":"NKN95&#39;s threads"}'>
+                            <div class="profile-mini-content">
+                            </div>
+                        </div>
+
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </li> 
+        <li id="03e73090-1c08-4793-a525-ddc38106ebc9" class="message ">
+        <div class="messageContentContainer">
+        
+        
+            <div class="messageSidebar">
+
+                <div class="iconWrapper">
+                    <div class="status messageIcon  question reply">
+                        <img class="icon  question reply" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" alt="Question" />
+                    </div>
+                </div>
+                <div class="votingouterbox">            <div class="voting">
+                <a class="voteuphreflink" name="voteup" title="Vote as helpful" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired" role="button">
+                    <img class="icon voteup" alt="Sign in to vote" title="Sign in to vote" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" />
+                    <div class="votenumber" style="display: block;">0</div>
+                </a>
+
+            </div>
+            <div class="votinglabel">
+                <span class="votinglabel type">
+                            <a title="Sign in to vote" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired">Sign in to vote</a>
+                </span>
+            </div>
+</div>
+            </div>
+        
+            <div class="messageContent">
+                <div class="container">
+                    <div class="body"><blockquote>What's the appropriate code ?</blockquote>
+<br/>
+The code you use to navigate through the pictures in the folder.&nbsp; Only you know what picture is next or previous.</div>
+                        <input type="hidden" id="03e73090-1c08-4793-a525-ddc38106ebc9_attachments" value="" />
+
+                </div>
+                
+                <div class="messageFooter">
+                     <div class="actions">
+                        <div class="date">Sunday, December 4, 2011 4:49 PM</div>
+                        <div class="menu message">
+                            
+                            
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="userInfo">
+                        <div class="unified-baseball-card-mini" data-profile-userid="f50d3273-443b-4139-b481-93e51be91ee6" data-profile-usercard-customlink='{"href":"https://social.msdn.microsoft.com/Forums/vstudio/en-US/user/threads?user=JohnWein", "text":"JohnWein&#39;s threads"}'>
+                            <div class="profile-mini-content">
+                            </div>
+                        </div>
+
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </li> 
+        <li id="f76cd740-3627-4bea-ab98-c45bc9f2362c" class="message ">
+        <div class="messageContentContainer">
+        
+        
+            <div class="messageSidebar">
+
+                <div class="iconWrapper">
+                    <div class="status messageIcon  question reply">
+                        <img class="icon  question reply" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" alt="Question" />
+                    </div>
+                </div>
+                <div class="votingouterbox">            <div class="voting">
+                <a class="voteuphreflink" name="voteup" title="Vote as helpful" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired" role="button">
+                    <img class="icon voteup" alt="Sign in to vote" title="Sign in to vote" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" />
+                    <div class="votenumber" style="display: block;">0</div>
+                </a>
+
+            </div>
+            <div class="votinglabel">
+                <span class="votinglabel type">
+                            <a title="Sign in to vote" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired">Sign in to vote</a>
+                </span>
+            </div>
+</div>
+            </div>
+        
+            <div class="messageContent">
+                <div class="container">
+                    <div class="body"><p>What's your code for setting the picture?</p>
+<p>-- <br/>
+Andrew</p></div>
+                        <input type="hidden" id="f76cd740-3627-4bea-ab98-c45bc9f2362c_attachments" value="" />
+
+                </div>
+                
+                <div class="messageFooter">
+                     <div class="actions">
+                        <div class="date">Sunday, December 4, 2011 4:50 PM</div>
+                        <div class="menu message">
+                            
+                            
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="userInfo">
+                        <div class="unified-baseball-card-mini" data-profile-userid="bf815039-47c6-4836-bde4-f04e3d06e17a" data-profile-usercard-customlink='{"href":"https://social.msdn.microsoft.com/Forums/vstudio/en-US/user/threads?user=Andrew%20Morton", "text":"Andrew Morton&#39;s threads"}'>
+                            <div class="profile-mini-content">
+                            </div>
+                        </div>
+
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </li> 
+        <li id="3888446b-d340-4edb-8407-e240ef6ad59c" class="message ">
+        <div class="messageContentContainer">
+        
+        
+            <div class="messageSidebar">
+
+                <div class="iconWrapper">
+                    <div class="status messageIcon  question reply">
+                        <img class="icon  question reply" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" alt="Question" />
+                    </div>
+                </div>
+                <div class="votingouterbox">            <div class="voting">
+                <a class="voteuphreflink" name="voteup" title="Vote as helpful" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired" role="button">
+                    <img class="icon voteup" alt="Sign in to vote" title="Sign in to vote" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" />
+                    <div class="votenumber" style="display: block;">0</div>
+                </a>
+
+            </div>
+            <div class="votinglabel">
+                <span class="votinglabel type">
+                            <a title="Sign in to vote" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired">Sign in to vote</a>
+                </span>
+            </div>
+</div>
+            </div>
+        
+            <div class="messageContent">
+                <div class="container">
+                    <div class="body"><div>
+<div style="color:black; background-color:white">
+<pre><span style="color:blue">With</span> OpenFileDialog1
+            .Filter = <span style="color:#a31515">&quot;All Image Files ( JPEG,GIF,BMP,PNG,ICO )|*.jpg;*.jpeg;*.gif;*.bmp;*.png;*ico|JPEG Files ( *.jpg;*.jpeg )|*.jpg;*.jpeg|GIF Files ( *.gif )|*.gif|BMP Files ( *.bmp )|*.bmp|PNG Files ( *.png )|*.png|Icon Files ( *.ico )|*.ico&quot;</span>
+            .FilterIndex = 1
+            .Title = <span style="color:#a31515">&quot;Browse Image&quot;</span>
+            .ShowDialog()
+        <span style="color:blue">End</span> <span style="color:blue">With</span>
+
+        <span style="color:blue">If</span> OpenFileDialog1.ShowDialog = Windows.Forms.DialogResult.OK <span style="color:blue">Then</span>
+            <span style="color:blue">Try</span>
+
+                FileName = OpenFileDialog1.FileName
+                PictureBox1.Image = Image.FromFile(OpenFileDialog1.FileName)
+
+                
+            <span style="color:blue">Catch</span> ex <span style="color:blue">As</span> Exception
+
+                MessageBox.Show(ex.Message, <span style="color:blue">My</span>.Application.Info.Title, _
+                    MessageBoxButtons.OK, MessageBoxIcon.<span style="color:blue">Error</span>)
+
+            <span style="color:blue">End</span> <span style="color:blue">Try</span>
+        <span style="color:blue">End</span> <span style="color:blue">If</span>
+</pre>
+</div>
+<br/>
+<br/>
+</div>
+<br/></div>
+                        <input type="hidden" id="3888446b-d340-4edb-8407-e240ef6ad59c_attachments" value="" />
+
+                </div>
+                        <div>
+            <ul class="history">
+                    <li>
+                        <span class="type">Edited by</span>
+                            <a class="author" href="https://social.msdn.microsoft.com:443/profile/nkn95/?type=forum&amp;referrer=https://social.msdn.microsoft.com/Forums/vstudio/en-US/aded22de-3711-4972-bb63-c7bc51181d1e/vbnet-how-to-create-next-and-previous-buttons-to-flip-between-pictures-in-a-folder-" rel="nofollow" title="About NKN95"><span>NKN95</span><abbr class="affil"></abbr></a>
+                        <span class="date">Sunday, December 4, 2011 6:25 PM</span>
+                    </li>
+            </ul>
+        </div>
+
+                <div class="messageFooter">
+                     <div class="actions">
+                        <div class="date">Sunday, December 4, 2011 6:25 PM</div>
+                        <div class="menu message">
+                            
+                            
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="userInfo">
+                        <div class="unified-baseball-card-mini" data-profile-userid="675af5ae-e2db-4edd-aca5-10b827f6dfcd" data-profile-usercard-customlink='{"href":"https://social.msdn.microsoft.com/Forums/vstudio/en-US/user/threads?user=NKN95", "text":"NKN95&#39;s threads"}'>
+                            <div class="profile-mini-content">
+                            </div>
+                        </div>
+
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </li> 
+        <li id="807b1976-e1f7-4c0c-b75a-cdd1f9a08a6a" class="message ">
+        <div class="messageContentContainer">
+        
+        
+            <div class="messageSidebar">
+
+                <div class="iconWrapper">
+                    <div class="status messageIcon  question reply">
+                        <img class="icon  question reply" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" alt="Question" />
+                    </div>
+                </div>
+                <div class="votingouterbox">            <div class="voting">
+                <a class="voteuphreflink" name="voteup" title="Vote as helpful" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired" role="button">
+                    <img class="icon voteup" alt="Sign in to vote" title="Sign in to vote" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" />
+                    <div class="votenumber" style="display: block;">0</div>
+                </a>
+
+            </div>
+            <div class="votinglabel">
+                <span class="votinglabel type">
+                            <a title="Sign in to vote" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired">Sign in to vote</a>
+                </span>
+            </div>
+</div>
+            </div>
+        
+            <div class="messageContent">
+                <div class="container">
+                    <div class="body">Your code allows the user to select 1 file.&nbsp; What's &quot;next&quot; and &quot;previous&quot;?</div>
+                        <input type="hidden" id="807b1976-e1f7-4c0c-b75a-cdd1f9a08a6a_attachments" value="" />
+
+                </div>
+                
+                <div class="messageFooter">
+                     <div class="actions">
+                        <div class="date">Sunday, December 4, 2011 6:29 PM</div>
+                        <div class="menu message">
+                            
+                            
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="userInfo">
+                        <div class="unified-baseball-card-mini" data-profile-userid="f50d3273-443b-4139-b481-93e51be91ee6" data-profile-usercard-customlink='{"href":"https://social.msdn.microsoft.com/Forums/vstudio/en-US/user/threads?user=JohnWein", "text":"JohnWein&#39;s threads"}'>
+                            <div class="profile-mini-content">
+                            </div>
+                        </div>
+
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </li> 
+        <li id="87686a8e-4d3a-4961-b082-a1de8806d361" class="message ">
+        <div class="messageContentContainer">
+        
+        
+            <div class="messageSidebar">
+
+                <div class="iconWrapper">
+                    <div class="status messageIcon  question reply">
+                        <img class="icon  question reply" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" alt="Question" />
+                    </div>
+                </div>
+                <div class="votingouterbox">            <div class="voting">
+                <a class="voteuphreflink" name="voteup" title="Vote as helpful" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired" role="button">
+                    <img class="icon voteup" alt="Sign in to vote" title="Sign in to vote" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" />
+                    <div class="votenumber" style="display: block;">1</div>
+                </a>
+
+            </div>
+            <div class="votinglabel">
+                <span class="votinglabel type">
+                            <a title="Sign in to vote" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired">Sign in to vote</a>
+                </span>
+            </div>
+</div>
+            </div>
+        
+            <div class="messageContent">
+                <div class="container">
+                    <div class="body"><p>I think maybe he means he would like to parse out the folder the single selected file was picked from &amp; grab all pictures of a certain type/types in that folder&nbsp;for next/previous to loop/display/go through, the filesystem/io filesystem.io &amp;
+ such should help you get the location without filename, should be obvious with intellisense &amp; as for finding all the other files in that folder is also under that.</p>
+<p>If you need more specific help, just ask but there are plenty of examples on parsing out the folder's location based on the filename &amp; enumerating/listing all the files in a certain folder/directory optionally including subfolders or not as well.</p>
+<p>The list of images however should be kept in an array at the time of picking the initial image if this is what you're trying to do though because depending on the number of files it can be slow enumerating the list of files in a directory &amp; since it
+ doesn't change, you might as well do it anyways, if you need help with this either, just ask, we will try our best to help you.</p></div>
+                        <input type="hidden" id="87686a8e-4d3a-4961-b082-a1de8806d361_attachments" value="" />
+
+                </div>
+                
+                <div class="messageFooter">
+                     <div class="actions">
+                        <div class="date">Sunday, December 4, 2011 11:22 PM</div>
+                        <div class="menu message">
+                            
+                            
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="userInfo">
+                        <div class="unified-baseball-card-mini" data-profile-userid="9c73b788-c950-40bd-a826-ab4bd5626e47" data-profile-usercard-customlink='{"href":"https://social.msdn.microsoft.com/Forums/vstudio/en-US/user/threads?user=Maya%20Key", "text":"Maya Key&#39;s threads"}'>
+                            <div class="profile-mini-content">
+                            </div>
+                        </div>
+
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </li> 
+        <li id="89ffc59c-2e4c-4789-9e70-a4026919552e" class="message ">
+        <div class="messageContentContainer">
+        
+        
+            <div class="messageSidebar">
+
+                <div class="iconWrapper">
+                    <div class="status messageIcon  question reply">
+                        <img class="icon  question reply" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" alt="Question" />
+                    </div>
+                </div>
+                <div class="votingouterbox">            <div class="voting">
+                <a class="voteuphreflink" name="voteup" title="Vote as helpful" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired" role="button">
+                    <img class="icon voteup" alt="Sign in to vote" title="Sign in to vote" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" />
+                    <div class="votenumber" style="display: block;">1</div>
+                </a>
+
+            </div>
+            <div class="votinglabel">
+                <span class="votinglabel type">
+                            <a title="Sign in to vote" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired">Sign in to vote</a>
+                </span>
+            </div>
+</div>
+            </div>
+        
+            <div class="messageContent">
+                <div class="container">
+                    <div class="body"><p>Hi NKN95,</p>
+<p>Welcome to the MSDN forum.</p>
+<p>It seems that you are looking for the ImageList Class. You can use it to list the image and display the pictures as photo viewer.</p>
+<p>Here is the information and the sample code about ImageList Class: <a href="http://msdn.microsoft.com/en-us/library/system.windows.forms.imagelist(v=VS.100).aspx" rel="nofollow">
+http://msdn.microsoft.com/en-us/library/system.windows.forms.imagelist(v=VS.100).aspx</a></p>
+<p>If you have any additional questions, please feel free to let me know.</p><hr class="sig">Mark Liu-lxf [MSFT]<br/>
+MSDN Community Support | <a href="mailto:msdnmg@microsoft.com">Feedback to us</a><br/>
+<a href="http://aka.ms/cvejv2"><img src="https://blufiles.storage.live.com/y1peuG5f_BfcqaHsPkEsoWi1oOJpDugvSIIAjDPb3IZHYt56I5jiDI2PuW4HUGgj-UTuFHP9H_h2CQ"></a></div>
+                        <input type="hidden" id="89ffc59c-2e4c-4789-9e70-a4026919552e_attachments" value="" />
+
+                </div>
+                
+                <div class="messageFooter">
+                     <div class="actions">
+                        <div class="date">Tuesday, December 6, 2011 7:17 AM</div>
+                        <div class="menu message">
+                            
+                            
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="userInfo">
+                        <div class="unified-baseball-card-mini" data-profile-userid="60a94323-ede2-4c2f-bc14-6a81fbdf6a33" data-profile-usercard-customlink='{"href":"https://social.msdn.microsoft.com/Forums/vstudio/en-US/user/threads?user=Mark%20Liu-lxf", "text":"Mark Liu-lxf&#39;s threads"}'>
+                            <div class="profile-mini-content">
+                            </div>
+                        </div>
+
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </li> 
+        <li id="94ac9350-1160-4c53-9c35-352da5ccbee2" class="message ">
+        <div class="messageContentContainer">
+        
+        
+            <div class="messageSidebar">
+
+                <div class="iconWrapper">
+                    <div class="status messageIcon  question reply">
+                        <img class="icon  question reply" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" alt="Question" />
+                    </div>
+                </div>
+                <div class="votingouterbox">            <div class="voting">
+                <a class="voteuphreflink" name="voteup" title="Vote as helpful" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired" role="button">
+                    <img class="icon voteup" alt="Sign in to vote" title="Sign in to vote" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" />
+                    <div class="votenumber" style="display: block;">0</div>
+                </a>
+
+            </div>
+            <div class="votinglabel">
+                <span class="votinglabel type">
+                            <a title="Sign in to vote" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired">Sign in to vote</a>
+                </span>
+            </div>
+</div>
+            </div>
+        
+            <div class="messageContent">
+                <div class="container">
+                    <div class="body"><p>Thank you,</p>
+<p>What I meant was, when I load an image to a picturebox using the openfiledialog I want to be able to go&nbsp;through all images in the&nbsp;&nbsp;folder containing this image using next and previous buttons.</p></div>
+                        <input type="hidden" id="94ac9350-1160-4c53-9c35-352da5ccbee2_attachments" value="" />
+
+                </div>
+                
+                <div class="messageFooter">
+                     <div class="actions">
+                        <div class="date">Tuesday, December 6, 2011 5:06 PM</div>
+                        <div class="menu message">
+                            
+                            
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="userInfo">
+                        <div class="unified-baseball-card-mini" data-profile-userid="675af5ae-e2db-4edd-aca5-10b827f6dfcd" data-profile-usercard-customlink='{"href":"https://social.msdn.microsoft.com/Forums/vstudio/en-US/user/threads?user=NKN95", "text":"NKN95&#39;s threads"}'>
+                            <div class="profile-mini-content">
+                            </div>
+                        </div>
+
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </li> 
+        <li id="370d0c5d-f27e-4e5d-b2cd-ffb8b86b6e50" class="message ">
+        <div class="messageContentContainer">
+        
+        
+            <div class="messageSidebar">
+
+                <div class="iconWrapper">
+                    <div class="status messageIcon  question reply">
+                        <img class="icon  question reply" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" alt="Question" />
+                    </div>
+                </div>
+                <div class="votingouterbox">            <div class="voting">
+                <a class="voteuphreflink" name="voteup" title="Vote as helpful" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired" role="button">
+                    <img class="icon voteup" alt="Sign in to vote" title="Sign in to vote" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" />
+                    <div class="votenumber" style="display: block;">0</div>
+                </a>
+
+            </div>
+            <div class="votinglabel">
+                <span class="votinglabel type">
+                            <a title="Sign in to vote" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired">Sign in to vote</a>
+                </span>
+            </div>
+</div>
+            </div>
+        
+            <div class="messageContent">
+                <div class="container">
+                    <div class="body"><p>I have a code xample for you, but it must wait due to forum outage issues is preventing me from adding code or for the most part, even posting...once it's back up I have done a full blown code xample for you that should be easy to adapt to what you got...</p>
+<p>Once I post it if someone has something better or any way to improve on what I did, feel free to post about it...</p></div>
+                        <input type="hidden" id="370d0c5d-f27e-4e5d-b2cd-ffb8b86b6e50_attachments" value="" />
+
+                </div>
+                
+                <div class="messageFooter">
+                     <div class="actions">
+                        <div class="date">Tuesday, December 6, 2011 8:05 PM</div>
+                        <div class="menu message">
+                            
+                            
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="userInfo">
+                        <div class="unified-baseball-card-mini" data-profile-userid="9c73b788-c950-40bd-a826-ab4bd5626e47" data-profile-usercard-customlink='{"href":"https://social.msdn.microsoft.com/Forums/vstudio/en-US/user/threads?user=Maya%20Key", "text":"Maya Key&#39;s threads"}'>
+                            <div class="profile-mini-content">
+                            </div>
+                        </div>
+
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </li> 
+        <li id="4ea50b57-835a-4329-b55d-754013048124" class="message  answer">
+        <div class="messageContentContainer">
+        
+        
+            <div class="messageSidebar">
+
+                <div class="iconWrapper">
+                    <div class="status messageIcon  question answered">
+                        <img class="icon  question answered" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" alt="Question" />
+                    </div>
+                </div>
+                <div class="votingouterbox">            <div class="voting">
+                <a class="voteuphreflink" name="voteup" title="Vote as helpful" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired" role="button">
+                    <img class="icon voteup" alt="Sign in to vote" title="Sign in to vote" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" />
+                    <div class="votenumber" style="display: block;">1</div>
+                </a>
+
+            </div>
+            <div class="votinglabel">
+                <span class="votinglabel type">
+                            <a title="Sign in to vote" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired">Sign in to vote</a>
+                </span>
+            </div>
+</div>
+            </div>
+        
+            <div class="messageContent">
+                <div class="container">
+                    <div class="body"><blockquote>
+<p>What I meant was, when I load an image to a picturebox using the openfiledialog I want to be able to go&nbsp;through all images in the&nbsp;&nbsp;folder containing this image using next and previous buttons.</p>
+</blockquote>
+<p>That would be difficult using the OpenFileDialog, as that dialog provides the apllication with a selected file.&nbsp; What you want is a selected folder.</p>
+<p>You would use the OpenFileDialog where you wanted to the user to have the option of selecting&nbsp;several files and you were going to use those files as your list of images to display.</p>
+<p>If you use the FolderBrowser dialog instead of the OpenFileDialog then you can get all the image files in the folder into a list and display them on demand. For this example, you need to add checking for a folder with no image files to display.</p>
+<p><span style="font-family:Courier new"><span style="color:#0000ff">Public</span><span>&nbsp;</span><span style="color:#0000ff">Class</span><span>&nbsp;Form1<br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Dim</span><span>&nbsp;Files()&nbsp;</span><span style="color:#0000ff">As</span><span>&nbsp;</span><span style="color:#0000ff">String<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Dim</span><span>&nbsp;Pointer&nbsp;</span><span style="color:#0000ff">As</span><span>&nbsp;</span><span style="color:#0000ff">Integer<br/>
+<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Private</span><span>&nbsp;</span><span style="color:#0000ff">Sub</span><span>&nbsp;Button1_Click(</span><span style="color:#0000ff">ByVal</span><span>&nbsp;sender&nbsp;</span><span style="color:#0000ff">As</span><span>&nbsp;System.Object,&nbsp;</span><span style="color:#0000ff">ByVal</span><span>&nbsp;e&nbsp;</span><span style="color:#0000ff">As</span><span>&nbsp;System.EventArgs)&nbsp;</span><span style="color:#0000ff">Handles</span><span>&nbsp;Button1.Click<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">If</span><span>&nbsp;FolderBrowserDialog1.ShowDialog&nbsp;&lt;&gt;&nbsp;Windows.Forms.DialogResult.Cancel&nbsp;</span><span style="color:#0000ff">Then<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Files&nbsp;=&nbsp;IO.Directory.GetFiles(FolderBrowserDialog1.SelectedPath)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">End</span><span>&nbsp;</span><span style="color:#0000ff">If<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pointer&nbsp;=&nbsp;-1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">End</span><span>&nbsp;</span><span style="color:#0000ff">Sub<br/>
+<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Private</span><span>&nbsp;</span><span style="color:#0000ff">Sub</span><span>&nbsp;Button2_Click(</span><span style="color:#0000ff">ByVal</span><span>&nbsp;sender&nbsp;</span><span style="color:#0000ff">As</span><span>&nbsp;System.Object,&nbsp;</span><span style="color:#0000ff">ByVal</span><span>&nbsp;e&nbsp;</span><span style="color:#0000ff">As</span><span>&nbsp;System.EventArgs)&nbsp;</span><span style="color:#0000ff">Handles</span><span>&nbsp;Button2.Click<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Do<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pointer&nbsp;=&nbsp;(Pointer&nbsp;&#43;&nbsp;1)&nbsp;</span><span style="color:#0000ff">Mod</span><span>&nbsp;Files.Count<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Loop</span><span>&nbsp;</span><span style="color:#0000ff">Until</span><span>&nbsp;checkimagetype(Files(Pointer))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Try<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PictureBox1.Image&nbsp;=&nbsp;Image.FromFile(Files(Pointer))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Catch</span><span>&nbsp;ex&nbsp;</span><span style="color:#0000ff">As</span><span>&nbsp;Exception<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MessageBox.Show(ex.Message&nbsp;&amp;&nbsp;</span><span style="color:#a31515">&quot;&nbsp;&quot;</span><span>&nbsp;&amp;&nbsp;Files(Pointer),&nbsp;</span><span style="color:#0000ff">My</span><span>.Application.Info.Title,&nbsp;_<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MessageBoxButtons.OK,&nbsp;MessageBoxIcon.Error)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">End</span><span>&nbsp;</span><span style="color:#0000ff">Try<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">End</span><span>&nbsp;</span><span style="color:#0000ff">Sub<br/>
+<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Private</span><span>&nbsp;</span><span style="color:#0000ff">Sub</span><span>&nbsp;Button3_Click(</span><span style="color:#0000ff">ByVal</span><span>&nbsp;sender&nbsp;</span><span style="color:#0000ff">As</span><span>&nbsp;System.Object,&nbsp;</span><span style="color:#0000ff">ByVal</span><span>&nbsp;e&nbsp;</span><span style="color:#0000ff">As</span><span>&nbsp;System.EventArgs)&nbsp;</span><span style="color:#0000ff">Handles</span><span>&nbsp;Button3.Click<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Do<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pointer&nbsp;-=&nbsp;1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">If</span><span>&nbsp;Pointer&nbsp;&lt;&nbsp;0&nbsp;</span><span style="color:#0000ff">Then</span><span>&nbsp;Pointer&nbsp;=&nbsp;Files.Count&nbsp;-&nbsp;1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Loop</span><span>&nbsp;</span><span style="color:#0000ff">Until</span><span>&nbsp;CheckImageType(Files(Pointer))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Try<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PictureBox1.Image&nbsp;=&nbsp;Image.FromFile(Files(Pointer))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Catch</span><span>&nbsp;ex&nbsp;</span><span style="color:#0000ff">As</span><span>&nbsp;Exception<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MessageBox.Show(ex.Message&nbsp;&amp;&nbsp;</span><span style="color:#a31515">&quot;&nbsp;&quot;</span><span>&nbsp;&amp;&nbsp;Files(Pointer),&nbsp;</span><span style="color:#0000ff">My</span><span>.Application.Info.Title,&nbsp;_<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MessageBoxButtons.OK,&nbsp;MessageBoxIcon.Error)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">End</span><span>&nbsp;</span><span style="color:#0000ff">Try<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">End</span><span>&nbsp;</span><span style="color:#0000ff">Sub<br/>
+<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Private</span><span>&nbsp;</span><span style="color:#0000ff">Function</span><span>&nbsp;CheckImageType(</span><span style="color:#0000ff">ByVal</span><span>&nbsp;F&nbsp;</span><span style="color:#0000ff">As</span><span>&nbsp;</span><span style="color:#0000ff">String</span><span>)&nbsp;</span><span style="color:#0000ff">As</span><span>&nbsp;</span><span style="color:#0000ff">Boolean<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Static</span><span>&nbsp;Ext()&nbsp;</span><span style="color:#0000ff">As</span><span>&nbsp;</span><span style="color:#0000ff">String</span><span>&nbsp;=&nbsp;{</span><span style="color:#a31515">&quot;.jpg&quot;</span><span>,&nbsp;</span><span style="color:#a31515">&quot;.jpeg&quot;</span><span>,&nbsp;</span><span style="color:#a31515">&quot;.gif&quot;</span><span>,&nbsp;</span><span style="color:#a31515">&quot;.bmp&quot;</span><span>,&nbsp;</span><span style="color:#a31515">&quot;.png&quot;</span><span>,&nbsp;</span><span style="color:#a31515">&quot;ico&quot;</span><span>}<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">For</span><span>&nbsp;</span><span style="color:#0000ff">Each</span><span>&nbsp;S&nbsp;</span><span style="color:#0000ff">As</span><span>&nbsp;</span><span style="color:#0000ff">String</span><span>&nbsp;</span><span style="color:#0000ff">In</span><span>&nbsp;Ext<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">If</span><span>&nbsp;F.ToLower.EndsWith(S)&nbsp;</span><span style="color:#0000ff">Then</span><span>&nbsp;</span><span style="color:#0000ff">Return</span><span>&nbsp;</span><span style="color:#0000ff">True<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Next<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">Return</span><span>&nbsp;</span><span style="color:#0000ff">False<br/>
+</span><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#0000ff">End</span><span>&nbsp;</span><span style="color:#0000ff">Function<br/>
+<br/>
+End</span><span>&nbsp;</span><span style="color:#0000ff">Class</span></span></p></div>
+                        <input type="hidden" id="4ea50b57-835a-4329-b55d-754013048124_attachments" value="" />
+
+                </div>
+                        <div>
+            <ul class="history">
+                    <li>
+                        <span class="type">Marked as answer by</span>
+                            <a class="author" href="https://social.msdn.microsoft.com:443/profile/nkn95/?type=forum&amp;referrer=https://social.msdn.microsoft.com/Forums/vstudio/en-US/aded22de-3711-4972-bb63-c7bc51181d1e/vbnet-how-to-create-next-and-previous-buttons-to-flip-between-pictures-in-a-folder-" rel="nofollow" title="About NKN95"><span>NKN95</span><abbr class="affil"></abbr></a>
+                        <span class="date">Wednesday, December 7, 2011 11:03 AM</span>
+                    </li>
+            </ul>
+        </div>
+
+                <div class="messageFooter">
+                     <div class="actions">
+                        <div class="date">Tuesday, December 6, 2011 10:19 PM</div>
+                        <div class="menu message">
+                            
+                            
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="userInfo">
+                        <div class="unified-baseball-card-mini" data-profile-userid="1babf25f-6788-4eca-8385-598c8072e414" data-profile-usercard-customlink='{"href":"https://social.msdn.microsoft.com/Forums/vstudio/en-US/user/threads?user=Acamar", "text":"Acamar&#39;s threads"}'>
+                            <div class="profile-mini-content">
+                            </div>
+                        </div>
+
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </li> 
+        <li id="d4021e5d-58ef-43bf-afe2-a59da5224c62" class="message ">
+        <div class="messageContentContainer">
+        
+        
+            <div class="messageSidebar">
+
+                <div class="iconWrapper">
+                    <div class="status messageIcon  question reply">
+                        <img class="icon  question reply" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" alt="Question" />
+                    </div>
+                </div>
+                <div class="votingouterbox">            <div class="voting">
+                <a class="voteuphreflink" name="voteup" title="Vote as helpful" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired" role="button">
+                    <img class="icon voteup" alt="Sign in to vote" title="Sign in to vote" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" />
+                    <div class="votenumber" style="display: block;">0</div>
+                </a>
+
+            </div>
+            <div class="votinglabel">
+                <span class="votinglabel type">
+                            <a title="Sign in to vote" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired">Sign in to vote</a>
+                </span>
+            </div>
+</div>
+            </div>
+        
+            <div class="messageContent">
+                <div class="container">
+                    <div class="body"><p>Another solution is the following...it works with the normal select file dialog...as long as selection is limited to an actual image file this will work just fine...</p>
+<p></p>
+<div style="color:Black;background-color:White;"><pre>
+<span style="color:Blue;">Public</span> <span style="color:Blue;">Class</span> Form1
+
+    <span style="color:Blue;">Private</span> CurrentPicture <span style="color:Blue;">As</span> <span style="color:Blue;">Integer</span>
+    <span style="color:Blue;">Private</span> CurrentDirectoryFiles <span style="color:Blue;">As</span> <span style="color:Blue;">New</span> List(Of <span style="color:Blue;">String</span>)
+    <span style="color:Blue;">Private</span> SupportedImageFileTypes <span style="color:Blue;">As</span> List(Of <span style="color:Blue;">String</span>) = <span style="color:Blue;">New</span> List(Of <span style="color:Blue;">String</span>) <span style="color:Blue;">From</span> {<span style="color:#A31515;">&quot;.png&quot;</span>, <span style="color:#A31515;">&quot;.gif&quot;</span>, <span style="color:#A31515;">&quot;.tif&quot;</span>, <span style="color:#A31515;">&quot;.jpg&quot;</span>}
+
+    <span style="color:Blue;">Private</span> <span style="color:Blue;">Sub</span> Button1_Click(sender <span style="color:Blue;">As</span> System.Object, e <span style="color:Blue;">As</span> System.EventArgs) <span style="color:Blue;">Handles</span> Button1.Click
+        <span style="color:Green;">&#39;Previous Button</span>
+        <span style="color:Blue;">If</span> CurrentPicture = 0 <span style="color:Blue;">Then</span>
+            CurrentPicture = CurrentDirectoryFiles.<span style="color:Blue;">Count</span> - 1
+        <span style="color:Blue;">Else</span>
+            CurrentPicture -= 1
+        <span style="color:Blue;">End</span> <span style="color:Blue;">If</span>
+        PictureBox1.ImageLocation = CurrentDirectoryFiles(CurrentPicture)
+    <span style="color:Blue;">End</span> <span style="color:Blue;">Sub</span>
+
+    <span style="color:Blue;">Private</span> <span style="color:Blue;">Sub</span> Button2_Click(sender <span style="color:Blue;">As</span> System.Object, e <span style="color:Blue;">As</span> System.EventArgs) <span style="color:Blue;">Handles</span> Button2.Click
+        <span style="color:Green;">&#39;Next Button</span>
+        <span style="color:Blue;">If</span> CurrentPicture = CurrentDirectoryFiles.<span style="color:Blue;">Count</span> - 1 <span style="color:Blue;">Then</span>
+            CurrentPicture = 0
+        <span style="color:Blue;">Else</span>
+            CurrentPicture += 1
+        <span style="color:Blue;">End</span> <span style="color:Blue;">If</span>
+        PictureBox1.ImageLocation = CurrentDirectoryFiles(CurrentPicture)
+    <span style="color:Blue;">End</span> <span style="color:Blue;">Sub</span>
+
+    <span style="color:Blue;">Private</span> <span style="color:Blue;">Sub</span> Form1_Load(sender <span style="color:Blue;">As</span> System.Object, e <span style="color:Blue;">As</span> System.EventArgs) <span style="color:Blue;">Handles</span> <span style="color:Blue;">MyBase</span>.Load
+        OpenFileDialog1.ShowDialog()
+        <span style="color:Blue;">For</span> <span style="color:Blue;">Each</span> File <span style="color:Blue;">As</span> <span style="color:Blue;">String</span> <span style="color:Blue;">In</span> FileIO.FileSystem.GetFiles(FileIO.FileSystem.GetParentPath(OpenFileDialog1.FileName))
+            <span style="color:Blue;">If</span> SupportedImageFileTypes.Contains(FileIO.FileSystem.GetFileInfo(File).Extension) <span style="color:Blue;">Then</span>
+                CurrentDirectoryFiles.Add(File)
+            <span style="color:Blue;">End</span> <span style="color:Blue;">If</span>
+        <span style="color:Blue;">Next</span>
+        CurrentPicture = CurrentDirectoryFiles.IndexOf(OpenFileDialog1.FileName)
+        PictureBox1.ImageLocation = OpenFileDialog1.FileName
+    <span style="color:Blue;">End</span> <span style="color:Blue;">Sub</span>
+
+<span style="color:Blue;">End</span> <span style="color:Blue;">Class</span>
+</pre></div>
+<br/>
+I would have answered your question hours before Acamar using the manner in which you were trying even but the forums code tool wasn't functioning &amp; I don't know why he was able to post code when I couldn't.
+<p></p></div>
+                        <input type="hidden" id="d4021e5d-58ef-43bf-afe2-a59da5224c62_attachments" value="" />
+
+                </div>
+                
+                <div class="messageFooter">
+                     <div class="actions">
+                        <div class="date">Friday, December 9, 2011 3:30 AM</div>
+                        <div class="menu message">
+                            
+                            
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="userInfo">
+                        <div class="unified-baseball-card-mini" data-profile-userid="9c73b788-c950-40bd-a826-ab4bd5626e47" data-profile-usercard-customlink='{"href":"https://social.msdn.microsoft.com/Forums/vstudio/en-US/user/threads?user=Maya%20Key", "text":"Maya Key&#39;s threads"}'>
+                            <div class="profile-mini-content">
+                            </div>
+                        </div>
+
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </li> 
+        <li id="2f6e4d97-57c8-440a-9fc0-1335b8fd2ec4" class="message ">
+        <div class="messageContentContainer">
+        
+        
+            <div class="messageSidebar">
+
+                <div class="iconWrapper">
+                    <div class="status messageIcon  question reply">
+                        <img class="icon  question reply" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" alt="Question" />
+                    </div>
+                </div>
+                <div class="votingouterbox">            <div class="voting">
+                <a class="voteuphreflink" name="voteup" title="Vote as helpful" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired" role="button">
+                    <img class="icon voteup" alt="Sign in to vote" title="Sign in to vote" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" />
+                    <div class="votenumber" style="display: block;">0</div>
+                </a>
+
+            </div>
+            <div class="votinglabel">
+                <span class="votinglabel type">
+                            <a title="Sign in to vote" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired">Sign in to vote</a>
+                </span>
+            </div>
+</div>
+            </div>
+        
+            <div class="messageContent">
+                <div class="container">
+                    <div class="body"><p>Hello!!! My name is Manith now i have problem with my application that i make in VB.Net 2010 and my Application build about the Media Player and i want to make ( Previous and Next Button ), so can you help me to show about this information. cause i'm try
+ to do but it doesn't process. i hope you can help me to show it.</p>
+<p></p>
+<p>thank you so much for answer me!!!</p></div>
+                        <input type="hidden" id="2f6e4d97-57c8-440a-9fc0-1335b8fd2ec4_attachments" value="" />
+
+                </div>
+                
+                <div class="messageFooter">
+                     <div class="actions">
+                        <div class="date">Thursday, September 11, 2014 5:38 PM</div>
+                        <div class="menu message">
+                            
+                            
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="userInfo">
+                        <div class="unified-baseball-card-mini" data-profile-userid="698a9fc4-556f-48ee-b37a-33c3cc92ade5" data-profile-usercard-customlink='{"href":"https://social.msdn.microsoft.com/Forums/vstudio/en-US/user/threads?user=Neang%20Manith", "text":"Neang Manith&#39;s threads"}'>
+                            <div class="profile-mini-content">
+                            </div>
+                        </div>
+
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </li> 
+        <li id="44af0492-411d-4053-8525-6d276e478f8e" class="message ">
+        <div class="messageContentContainer">
+        
+        
+            <div class="messageSidebar">
+
+                <div class="iconWrapper">
+                    <div class="status messageIcon  question reply">
+                        <img class="icon  question reply" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" alt="Question" />
+                    </div>
+                </div>
+                <div class="votingouterbox">            <div class="voting">
+                <a class="voteuphreflink" name="voteup" title="Vote as helpful" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired" role="button">
+                    <img class="icon voteup" alt="Sign in to vote" title="Sign in to vote" src="https://i1.social.s-msft.com/Forums/../globalresources/Images/trans.gif?cver=0001" />
+                    <div class="votenumber" style="display: block;">0</div>
+                </a>
+
+            </div>
+            <div class="votinglabel">
+                <span class="votinglabel type">
+                            <a title="Sign in to vote" href="/Forums/Account/Login?ReturnUrl=https%3a%2f%2fsocial.msdn.microsoft.com%3a443%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral%26prof%3drequired">Sign in to vote</a>
+                </span>
+            </div>
+</div>
+            </div>
+        
+            <div class="messageContent">
+                <div class="container">
+                    <div class="body"><blockquote>
+<p>Hello!!! My name is Manith now i have problem with my application that i make in VB.Net 2010 and my Application build about the Media Player and i want to make ( Previous and Next Button ), so can you help me to show about this information. cause i'm try
+ to do but it doesn't process.</p>
+</blockquote>
+<p>Please start a new question for this, and show us what code you have tried so far.</p>
+<p>-- <br/>
+Andrew</p></div>
+                        <input type="hidden" id="44af0492-411d-4053-8525-6d276e478f8e_attachments" value="" />
+
+                </div>
+                
+                <div class="messageFooter">
+                     <div class="actions">
+                        <div class="date">Thursday, September 11, 2014 6:06 PM</div>
+                        <div class="menu message">
+                            
+                            
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="userInfo">
+                        <div class="unified-baseball-card-mini" data-profile-userid="bf815039-47c6-4836-bde4-f04e3d06e17a" data-profile-usercard-customlink='{"href":"https://social.msdn.microsoft.com/Forums/vstudio/en-US/user/threads?user=Andrew%20Morton", "text":"Andrew Morton&#39;s threads"}'>
+                            <div class="profile-mini-content">
+                            </div>
+                        </div>
+
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </li> 
+
+    </ul>
+
+        </div>
+
+                </div>
+            </section>
+        </div>
+    </div>
+
+            <div class="clear"></div>
+        </div>
+    </div>  
+    
+                                    <div class="Clear"></div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="Clearbottom"></div>          
+                    <div class="bottomleftcorner"></div>            
+                    <div class="bottomrightcorner"></div> 
+                    
+                     
+
+<div data-chameleon-template="epxfooter" >
+
+<footer class="ux-footer" xmlns="http://www.w3.org/1999/xhtml">
+    <div class="nav">
+        <div class="footerLinksContainer">
+             
+          <ul class="footerLinks" style="width: 24.99%;">
+            <li class="footerLinksTitle">
+              <a href="" title="Dev Centers">Dev Centers</a>
+            </li>
+
+                <li>
+                  <a href="https://dev.windows.com/" title="Windows">Windows</a>
+                </li>
+                <li>
+                  <a href="http://dev.office.com/" title="Office">Office</a>
+                </li>
+                <li>
+                  <a href="https://msdn.microsoft.com/aa937802" title="More...">More...</a>
+                </li>
+          </ul>
+          <ul class="footerLinks" style="width: 24.99%;">
+            <li class="footerLinksTitle">
+              <a href="" title="Related Sites">Related Sites</a>
+            </li>
+
+                <li>
+                  <a href="https://www.visualstudio.com/" title="Visual Studio">Visual Studio</a>
+                </li>
+                <li>
+                  <a href="https://www.visualstudio.com/integrate/" title="Visual Studio Integrate">Visual Studio Integrate</a>
+                </li>
+                <li>
+                  <a href="http://www.vsipprogram.com/" title="VSIP Program">VSIP Program</a>
+                </li>
+                <li>
+                  <a href="https://www.microsoft.com/net" title="Microsoft .NET">Microsoft .NET</a>
+                </li>
+                <li>
+                  <a href="http://azure.microsoft.com/" title="Microsoft Azure">Microsoft Azure</a>
+                </li>
+          </ul>
+          <ul class="footerLinks" style="width: 24.99%;">
+            <li class="footerLinksTitle">
+              <a href="" title="Connect">Connect</a>
+            </li>
+
+                <li>
+                  <a href="http://social.msdn.microsoft.com/forums/vstudio/en-us/home?category=visualstudio%2cvslanguages%2cvstfs%2cnetdevelopment%2cvsarch" title="Forums">Forums</a>
+                </li>
+                <li>
+                  <a href="http://blogs.msdn.com/b/developer-tools/" title="Blog">Blog</a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/visualstudio.us?brand_redir=1" title="Facebook">Facebook</a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/company/microsoft-visual-studio" title="LinkedIn">LinkedIn</a>
+                </li>
+                <li>
+                  <a href="http://stackoverflow.com/questions/tagged/visual-studio" title="Stack Overflow">Stack Overflow</a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/visualstudio" title="Twitter">Twitter</a>
+                </li>
+                <li>
+                  <a href="http://events.visualstudio.com/" title="Visual Studio Events">Visual Studio Events</a>
+                </li>
+                <li>
+                  <a href="http://www.youtube.com/user/visualstudio" title="YouTube">YouTube</a>
+                </li>
+          </ul>
+          <ul class="footerLinks" style="width: 24.99%;">
+            <li class="footerLinksTitle">
+              <a href="" title="Developer Resources">Developer Resources</a>
+            </li>
+
+                <li>
+                  <a href="https://msdn.microsoft.com/library/se881ay9(v=vs.120).aspx" title="Code samples">Code samples</a>
+                </li>
+                <li>
+                  <a href="https://msdn.microsoft.com/en-us/library/vstudio" title="Documentation">Documentation</a>
+                </li>
+                <li>
+                  <a href="https://www.visualstudio.com/downloads/download-visual-studio-vs" title="Downloads">Downloads</a>
+                </li>
+                <li>
+                  <a href="http://visualstudiogallery.msdn.microsoft.com/" title="Products &amp; extensions for Visual Studio">Products &amp; extensions for Visual Studio</a>
+                </li>
+                <li>
+                  <a href="https://www.visualstudio.com/docs/integrate/get-started/rest/basics" title="REST APIs">REST APIs</a>
+                </li>
+                <li>
+                  <a href="http://www.modern.ie/" title="Testing tools for web developers">Testing tools for web developers</a>
+                </li>
+                <li>
+                  <a href="https://msdn.microsoft.com/en-us/vstudio/ff459609" title="Videos and tutorials">Videos and tutorials</a>
+                </li>
+                <li>
+                  <a href="https://msdn.microsoft.com/vstudio/ff640662" title="Virtual Labs">Virtual Labs</a>
+                </li>
+          </ul>
+    
+        </div>
+    </div>
+    <div class="footerSubLinksContainer">
+        <span class="localePickerLink">
+            <a href="/en-us/SelectLocale-dmc?fromPage=https%3a%2f%2fsocial.msdn.microsoft.com%2fForums%2fvstudio%2fen-US%2faded22de-3711-4972-bb63-c7bc51181d1e%2fvbnet-how-to-create-quotnextquot-and-quotpreviousquot-buttons-to-flip-between-pictures-in%3fforum%3dvbgeneral" title=" United States (English)"> United States (English)</a>
+        </span>
+        <ul class="footerSubLinks">
+            <li class="subFooterLink">© 2021 Microsoft</li>
+            
+          <li class="subFooterLink">
+            <a href="https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx" title="Terms of Use">Terms of Use</a>
+          </li>
+          <li class="subFooterLink">
+            <a href="https://www.microsoft.com/library/toolbar/3.0/trademarks/en-us.mspx" title="Trademarks">Trademarks</a>
+          </li>
+          <li class="subFooterLink">
+            <a href="http://go.microsoft.com/fwlink/?linkid=248681" title="Privacy Statement">Privacy Statement</a>
+          </li>
+          <li class="subFooterLink">
+            <a href="https://lab.msdn.microsoft.com/mailform/contactus.aspx?refurl=http%3a%2f%2fmsdn.microsoft.com%2fen-us%2fvstudio%2faa718325.aspx&amp;amp;loc=en-us" title="Site Feedback">Site Feedback</a>
+          </li>
+      <li>
+        <a class="microsoftlogo" href="https://www.microsoft.com" title="Microsoft"></a>
+      </li>
+    
+        </ul>
+    </div>
+</footer></div>
+<div data-chameleon-template="footer" ></div>
+                    
+
+                           
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    
+    
+    
+
+    <script src="https://i1.social.s-msft.com/Forums/RequestReduceContent/704b94548be3ff3fd414a4df6a42fd51-f8814aa55e1befeaeb38b250b1d98b99-RequestReducedScript.js" type="text/javascript" ></script>       
+    
+<script type="text/javascript" language="javascript">
+var railItems = ["/Forums/en-US/rightrailannouncement/Msdn/8592413b-911f-400f-a94e-bd9e619ff91e"];
+
+</script>
+
+    <script type="text/javascript" language="javascript">
+            var pageData = {"validUser":false,"autoSubscribe":false};
+    </script>
+     <script type="text/javascript" language="javascript">
+         var userEmailConfigured = false;
+     </script>  
+    <script src="https://i1.social.s-msft.com/Forums/RequestReduceContent/63bef8b871115849069cda0f4e5d6a83-c7f4546dd8f36c63d6260046f6557873-RequestReducedScript.js" type="text/javascript" ></script>        <script>
+        $(document).ready(function () {
+            Forums.ThreadPage.wirePageElements('Search forum questions');
+        });
+    </script>
+
+    
+    <noscript>
+        <img alt="" border="0" id="DCSIMG" width="1" height="1" src="http://m.webtrends.com/dcsour5e80000008ybade4ttg_1i1l/njs.gif?dcsuri=/nojavascript&amp;WT.js=No">
+    </noscript>
+     <script type="text/javascript">
+         function addAsyncScript(src) {
+             var script = document.createElement('script');
+             script.type = 'text/javascript';
+             script.async = true;
+             script.src = src;
+             return script;
+         };
+
+         $(document).ready(function () {
+             if (window.siteConsent) {
+                 siteConsent.onConsentChanged(watchConsentChanges);
+             }
+             function getResetDate() {
+                 var d = new Date();
+                 d.setMonth(-12);
+                 return d;
+             }
+             function watchConsentChanges(categoryPreferences) {
+                 if (categoryPreferences.Analytics) {
+                     document.getElementsByTagName('body')[0].appendChild(addAsyncScript("https://i1.social.s-msft.com/Forums/resources/scripts/webtrends.js?cver=0001"));
+                 } else {
+                     var expire = getResetDate();
+                     document.cookie = "WT_FPC =; domain=.microsoft.com; expires=" + expire + "; path=/";
+                 }
+             }
+         });
+        </script>
+
+    
+     <script type="text/javascript">
+         jQuery(window).load(
+             function () {
+                 document.getElementsByTagName('body')[0].appendChild(addAsyncScript("https://widgets.membership.s-msft.com/v1/loader.js?brand=Msdn&lang=en-US"));
+                 // Move ComScore script broker.js after DOM load and logic refer to ForumsMasterHelper.NsatSurveyScriptTag
+                 // Enable requirements: 1. brand in MSDN/Technet 2. locale is en-us 3. NsatSurveyEnabled flag turn on in web.config 
+                 
+                 document.getElementsByTagName('body')[0].appendChild(addAsyncScript("https://www.microsoft.com/library/svy/sto/broker.js"));
+               
+             });
+     </script>
+     
+    <script src="https://i1.social.s-msft.com/Forums/RequestReduceContent/c6b985aab0a4bc31c1f6c9ea5cc1c1e7-c33b18e3bbf35a4f099e22bb40884dd1-RequestReducedScript.js" type="text/javascript" ></script>
+    
+            
+    <script type="text/javascript">
+        jQuery(window).load(
+            function () {
+                document.getElementsByTagName('body')[0].appendChild(addAsyncScript("https://i1.social.s-msft.com/Forums/GlobalResources/scripts/JSLLRecord.js?cver=0001"));
+            });
+        </script>
+        <noscript><a href="https://www.omniture.com" title="Web Analytics">
+        <img src="https://msstonojssocial.112.2O7.net/b/ss/msstonojssocial/1/H.20.2--NS/0" height="1" width="1" alt="" />
+        </a></noscript>
+    
+	<script type="text/javascript" >
+        $(document).ready(function (){
+			$("img.DropDownArrow").attr("src","https://i1.social.s-msft.com/Forums/GlobalResources/images/Msdn/DropDownArrow_Gray.png");
+			if($('.announcementContent p').height()<40)
+            {
+                $('.learnMore').css('bottom', '5px');
+            }
+		});
+    </script>
+</body>
+</html>
